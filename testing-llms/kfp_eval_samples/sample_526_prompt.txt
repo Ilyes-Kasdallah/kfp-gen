@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+$ python iris_python_pipeline.py # This will upload iris_python.yaml. Check this on kubeflow-pipeline-ui This will upload iris_python.yaml. Check this on kubeflow-pipeline-ui ## TODO # list file and directories # list file and directories

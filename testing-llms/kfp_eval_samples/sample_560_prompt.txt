@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+Step 1: Load DataSet ## Load the iris dataset ## save the dataset to a CSV file Step 2: Data Preprocessing # Debug: Check for NaN values

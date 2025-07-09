@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+Two step v2-compatible pipeline with URI placeholders. Copyright 2021 The Kubeflow Authors  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at

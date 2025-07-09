@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+Runs the pipeline      Args:         dataset_name: Name of the dataset         dataset_subset: Subset of the dataset         model_name: Name of the model      Returns:         None # Connect to KFP, this command is used to connect to the KFP UI: # kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80 # ParallerFor takes static arguments, it is not possible to give it as pipeline parameter so we need to override the # pipeline function code to pass the arguments. # Open the pipeline code

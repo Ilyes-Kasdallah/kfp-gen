@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+len_X_train: {len_X_train}         path_X_train: {path_X_train}         uri_X_train: {uri_X_train}                  len_X_test: {len_X_test}         path_X_test: {path_X_test}         uri_X_test: {uri_X_test} # transform series to dataframe and add column 'y' split_data_light --> lightweigth component with custom python model # Import libraries # Load data from input # Split data

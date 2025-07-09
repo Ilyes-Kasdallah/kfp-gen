@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+from kfp.components import func_to_container_op # 讀取與程式碼位於同一個資料夾中的 hypertension.csv # 移除不需要的欄位 # 補齊資料 # Logistic Regression

@@ -1,0 +1,3 @@
+You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
+
+task = upload_to_gcs(     bucket_name="new_bucket123123213",     source_file_name="sample_file.txt",     destination_blob_name="sample_file.txt", )  # type:ignore from google.cloud import storage  #type:ignore from google.oauth2 import service_account  #type:ignore #out_artifact.metadata["test"] = "test123" can read artifact contents with open(task.outputs["out_artifact"].path) as f:

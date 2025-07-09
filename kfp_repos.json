@@ -1,0 +1,2036 @@
+[
+  {
+    "full_name": "kubeflow/pipelines",
+    "html_url": "https://github.com/kubeflow/pipelines",
+    "stars": 3867,
+    "clone_url": "https://github.com/kubeflow/pipelines.git"
+  },
+  {
+    "full_name": "couler-proj/couler",
+    "html_url": "https://github.com/couler-proj/couler",
+    "stars": 938,
+    "clone_url": "https://github.com/couler-proj/couler.git"
+  },
+  {
+    "full_name": "riiid/krsh",
+    "html_url": "https://github.com/riiid/krsh",
+    "stars": 129,
+    "clone_url": "https://github.com/riiid/krsh.git"
+  },
+  {
+    "full_name": "omerbsezer/Fast-Kubeflow",
+    "html_url": "https://github.com/omerbsezer/Fast-Kubeflow",
+    "stars": 82,
+    "clone_url": "https://github.com/omerbsezer/Fast-Kubeflow.git"
+  },
+  {
+    "full_name": "ksalama/kubeflow-examples",
+    "html_url": "https://github.com/ksalama/kubeflow-examples",
+    "stars": 55,
+    "clone_url": "https://github.com/ksalama/kubeflow-examples.git"
+  },
+  {
+    "full_name": "getindata/kedro-kubeflow",
+    "html_url": "https://github.com/getindata/kedro-kubeflow",
+    "stars": 54,
+    "clone_url": "https://github.com/getindata/kedro-kubeflow.git"
+  },
+  {
+    "full_name": "sbakiu/kubeflow-spark",
+    "html_url": "https://github.com/sbakiu/kubeflow-spark",
+    "stars": 52,
+    "clone_url": "https://github.com/sbakiu/kubeflow-spark.git"
+  },
+  {
+    "full_name": "ploomber/soopervisor",
+    "html_url": "https://github.com/ploomber/soopervisor",
+    "stars": 45,
+    "clone_url": "https://github.com/ploomber/soopervisor.git"
+  },
+  {
+    "full_name": "FernandoLpz/Kubeflow_Pipelines",
+    "html_url": "https://github.com/FernandoLpz/Kubeflow_Pipelines",
+    "stars": 41,
+    "clone_url": "https://github.com/FernandoLpz/Kubeflow_Pipelines.git"
+  },
+  {
+    "full_name": "ciandt-d1/chicago-taxi-forecast",
+    "html_url": "https://github.com/ciandt-d1/chicago-taxi-forecast",
+    "stars": 37,
+    "clone_url": "https://github.com/ciandt-d1/chicago-taxi-forecast.git"
+  },
+  {
+    "full_name": "gnovack/kubeflow-pipelines",
+    "html_url": "https://github.com/gnovack/kubeflow-pipelines",
+    "stars": 32,
+    "clone_url": "https://github.com/gnovack/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "dermatologist/kedro-multimodal",
+    "html_url": "https://github.com/dermatologist/kedro-multimodal",
+    "stars": 21,
+    "clone_url": "https://github.com/dermatologist/kedro-multimodal.git"
+  },
+  {
+    "full_name": "Mastercard/mastercard-labs-ml-pipeline",
+    "html_url": "https://github.com/Mastercard/mastercard-labs-ml-pipeline",
+    "stars": 15,
+    "clone_url": "https://github.com/Mastercard/mastercard-labs-ml-pipeline.git"
+  },
+  {
+    "full_name": "dvdbisong/kubeflow-for-poets",
+    "html_url": "https://github.com/dvdbisong/kubeflow-for-poets",
+    "stars": 14,
+    "clone_url": "https://github.com/dvdbisong/kubeflow-for-poets.git"
+  },
+  {
+    "full_name": "Ark-kun/pipeline_components",
+    "html_url": "https://github.com/Ark-kun/pipeline_components",
+    "stars": 14,
+    "clone_url": "https://github.com/Ark-kun/pipeline_components.git"
+  },
+  {
+    "full_name": "StatCan/aaw-kubeflow-mlops",
+    "html_url": "https://github.com/StatCan/aaw-kubeflow-mlops",
+    "stars": 13,
+    "clone_url": "https://github.com/StatCan/aaw-kubeflow-mlops.git"
+  },
+  {
+    "full_name": "redhat-ai-services/kubeflow-pipelines-examples",
+    "html_url": "https://github.com/redhat-ai-services/kubeflow-pipelines-examples",
+    "stars": 12,
+    "clone_url": "https://github.com/redhat-ai-services/kubeflow-pipelines-examples.git"
+  },
+  {
+    "full_name": "google/vertex-pipelines-boilerplate",
+    "html_url": "https://github.com/google/vertex-pipelines-boilerplate",
+    "stars": 10,
+    "clone_url": "https://github.com/google/vertex-pipelines-boilerplate.git"
+  },
+  {
+    "full_name": "lynnmatrix/kfp-local",
+    "html_url": "https://github.com/lynnmatrix/kfp-local",
+    "stars": 8,
+    "clone_url": "https://github.com/lynnmatrix/kfp-local.git"
+  },
+  {
+    "full_name": "deployKF/kubeflow-pipelines-gitops",
+    "html_url": "https://github.com/deployKF/kubeflow-pipelines-gitops",
+    "stars": 7,
+    "clone_url": "https://github.com/deployKF/kubeflow-pipelines-gitops.git"
+  },
+  {
+    "full_name": "muhammadyaseen/kubeflow-on-linode",
+    "html_url": "https://github.com/muhammadyaseen/kubeflow-on-linode",
+    "stars": 7,
+    "clone_url": "https://github.com/muhammadyaseen/kubeflow-on-linode.git"
+  },
+  {
+    "full_name": "e2fyi/kfx",
+    "html_url": "https://github.com/e2fyi/kfx",
+    "stars": 5,
+    "clone_url": "https://github.com/e2fyi/kfx.git"
+  },
+  {
+    "full_name": "glukicov/llm_pipelines_demo",
+    "html_url": "https://github.com/glukicov/llm_pipelines_demo",
+    "stars": 5,
+    "clone_url": "https://github.com/glukicov/llm_pipelines_demo.git"
+  },
+  {
+    "full_name": "canonical/kfp-operators",
+    "html_url": "https://github.com/canonical/kfp-operators",
+    "stars": 4,
+    "clone_url": "https://github.com/canonical/kfp-operators.git"
+  },
+  {
+    "full_name": "Anvil-Late/Kubeflow_advanced_pipeline",
+    "html_url": "https://github.com/Anvil-Late/Kubeflow_advanced_pipeline",
+    "stars": 4,
+    "clone_url": "https://github.com/Anvil-Late/Kubeflow_advanced_pipeline.git"
+  },
+  {
+    "full_name": "jhammarstedt/MLOps-Kubeflow_in_GCP",
+    "html_url": "https://github.com/jhammarstedt/MLOps-Kubeflow_in_GCP",
+    "stars": 4,
+    "clone_url": "https://github.com/jhammarstedt/MLOps-Kubeflow_in_GCP.git"
+  },
+  {
+    "full_name": "jy2k/Kubeflow-v2-distributed-pytorch",
+    "html_url": "https://github.com/jy2k/Kubeflow-v2-distributed-pytorch",
+    "stars": 4,
+    "clone_url": "https://github.com/jy2k/Kubeflow-v2-distributed-pytorch.git"
+  },
+  {
+    "full_name": "ferneutron/mlops",
+    "html_url": "https://github.com/ferneutron/mlops",
+    "stars": 4,
+    "clone_url": "https://github.com/ferneutron/mlops.git"
+  },
+  {
+    "full_name": "iQuantC/Kubeflow-pipeline",
+    "html_url": "https://github.com/iQuantC/Kubeflow-pipeline",
+    "stars": 3,
+    "clone_url": "https://github.com/iQuantC/Kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "DanielAvdar/protocol-task",
+    "html_url": "https://github.com/DanielAvdar/protocol-task",
+    "stars": 3,
+    "clone_url": "https://github.com/DanielAvdar/protocol-task.git"
+  },
+  {
+    "full_name": "kfous/kubeflow-pipeline",
+    "html_url": "https://github.com/kfous/kubeflow-pipeline",
+    "stars": 3,
+    "clone_url": "https://github.com/kfous/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "pharmbio/kubeflow-pipelines",
+    "html_url": "https://github.com/pharmbio/kubeflow-pipelines",
+    "stars": 3,
+    "clone_url": "https://github.com/pharmbio/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "js-ts/merlin-pipelines-components",
+    "html_url": "https://github.com/js-ts/merlin-pipelines-components",
+    "stars": 3,
+    "clone_url": "https://github.com/js-ts/merlin-pipelines-components.git"
+  },
+  {
+    "full_name": "NusretOzates/autonlp-classification-kubeflow",
+    "html_url": "https://github.com/NusretOzates/autonlp-classification-kubeflow",
+    "stars": 3,
+    "clone_url": "https://github.com/NusretOzates/autonlp-classification-kubeflow.git"
+  },
+  {
+    "full_name": "sbakiu/ml-kf-pipeline",
+    "html_url": "https://github.com/sbakiu/ml-kf-pipeline",
+    "stars": 3,
+    "clone_url": "https://github.com/sbakiu/ml-kf-pipeline.git"
+  },
+  {
+    "full_name": "Ark-kun/kfp_sdk_components",
+    "html_url": "https://github.com/Ark-kun/kfp_sdk_components",
+    "stars": 3,
+    "clone_url": "https://github.com/Ark-kun/kfp_sdk_components.git"
+  },
+  {
+    "full_name": "Elkinmt19/kube6ml",
+    "html_url": "https://github.com/Elkinmt19/kube6ml",
+    "stars": 3,
+    "clone_url": "https://github.com/Elkinmt19/kube6ml.git"
+  },
+  {
+    "full_name": "s102401002/kubeflowPipeline0722",
+    "html_url": "https://github.com/s102401002/kubeflowPipeline0722",
+    "stars": 2,
+    "clone_url": "https://github.com/s102401002/kubeflowPipeline0722.git"
+  },
+  {
+    "full_name": "StatCan/aaw-kubeflow-pipelines-secret-scanner",
+    "html_url": "https://github.com/StatCan/aaw-kubeflow-pipelines-secret-scanner",
+    "stars": 2,
+    "clone_url": "https://github.com/StatCan/aaw-kubeflow-pipelines-secret-scanner.git"
+  },
+  {
+    "full_name": "paul-sud/demo-pipeline",
+    "html_url": "https://github.com/paul-sud/demo-pipeline",
+    "stars": 2,
+    "clone_url": "https://github.com/paul-sud/demo-pipeline.git"
+  },
+  {
+    "full_name": "tonouchi510/kfp-project",
+    "html_url": "https://github.com/tonouchi510/kfp-project",
+    "stars": 2,
+    "clone_url": "https://github.com/tonouchi510/kfp-project.git"
+  },
+  {
+    "full_name": "reproio/kfp-deployer",
+    "html_url": "https://github.com/reproio/kfp-deployer",
+    "stars": 2,
+    "clone_url": "https://github.com/reproio/kfp-deployer.git"
+  },
+  {
+    "full_name": "hiruna72/miniKF_example_pipeline",
+    "html_url": "https://github.com/hiruna72/miniKF_example_pipeline",
+    "stars": 2,
+    "clone_url": "https://github.com/hiruna72/miniKF_example_pipeline.git"
+  },
+  {
+    "full_name": "shashnavad/wine-quality-mlops",
+    "html_url": "https://github.com/shashnavad/wine-quality-mlops",
+    "stars": 2,
+    "clone_url": "https://github.com/shashnavad/wine-quality-mlops.git"
+  },
+  {
+    "full_name": "canonical/pipelines-rocks",
+    "html_url": "https://github.com/canonical/pipelines-rocks",
+    "stars": 1,
+    "clone_url": "https://github.com/canonical/pipelines-rocks.git"
+  },
+  {
+    "full_name": "levitomer/kubeflow-pipeline-demo",
+    "html_url": "https://github.com/levitomer/kubeflow-pipeline-demo",
+    "stars": 1,
+    "clone_url": "https://github.com/levitomer/kubeflow-pipeline-demo.git"
+  },
+  {
+    "full_name": "anifort/kubeflow-pipelines-mlops",
+    "html_url": "https://github.com/anifort/kubeflow-pipelines-mlops",
+    "stars": 1,
+    "clone_url": "https://github.com/anifort/kubeflow-pipelines-mlops.git"
+  },
+  {
+    "full_name": "AnsealArt/MLOps-Kubeflow",
+    "html_url": "https://github.com/AnsealArt/MLOps-Kubeflow",
+    "stars": 1,
+    "clone_url": "https://github.com/AnsealArt/MLOps-Kubeflow.git"
+  },
+  {
+    "full_name": "s102401002/kubeflowPipeline",
+    "html_url": "https://github.com/s102401002/kubeflowPipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/s102401002/kubeflowPipeline.git"
+  },
+  {
+    "full_name": "stackdemos/yolo4",
+    "html_url": "https://github.com/stackdemos/yolo4",
+    "stars": 1,
+    "clone_url": "https://github.com/stackdemos/yolo4.git"
+  },
+  {
+    "full_name": "aiffel-socar-cv/kubeflow-pipeline",
+    "html_url": "https://github.com/aiffel-socar-cv/kubeflow-pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/aiffel-socar-cv/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "lauramorillo/kubeflow-example",
+    "html_url": "https://github.com/lauramorillo/kubeflow-example",
+    "stars": 1,
+    "clone_url": "https://github.com/lauramorillo/kubeflow-example.git"
+  },
+  {
+    "full_name": "js-ts/merlin-pipelines",
+    "html_url": "https://github.com/js-ts/merlin-pipelines",
+    "stars": 1,
+    "clone_url": "https://github.com/js-ts/merlin-pipelines.git"
+  },
+  {
+    "full_name": "pragadeeshraju/kubeflow-sample-pipeline",
+    "html_url": "https://github.com/pragadeeshraju/kubeflow-sample-pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/pragadeeshraju/kubeflow-sample-pipeline.git"
+  },
+  {
+    "full_name": "oldthreefeng/pipelines",
+    "html_url": "https://github.com/oldthreefeng/pipelines",
+    "stars": 1,
+    "clone_url": "https://github.com/oldthreefeng/pipelines.git"
+  },
+  {
+    "full_name": "dedmari/kubeflow_trident_pipeline",
+    "html_url": "https://github.com/dedmari/kubeflow_trident_pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/dedmari/kubeflow_trident_pipeline.git"
+  },
+  {
+    "full_name": "Alexander6463/Kubeflow_MNIST",
+    "html_url": "https://github.com/Alexander6463/Kubeflow_MNIST",
+    "stars": 1,
+    "clone_url": "https://github.com/Alexander6463/Kubeflow_MNIST.git"
+  },
+  {
+    "full_name": "jonrossclaytor/kubeflow-mlb",
+    "html_url": "https://github.com/jonrossclaytor/kubeflow-mlb",
+    "stars": 1,
+    "clone_url": "https://github.com/jonrossclaytor/kubeflow-mlb.git"
+  },
+  {
+    "full_name": "xxxtrillionarie/KubeFlow_MLOps_Pipelines",
+    "html_url": "https://github.com/xxxtrillionarie/KubeFlow_MLOps_Pipelines",
+    "stars": 1,
+    "clone_url": "https://github.com/xxxtrillionarie/KubeFlow_MLOps_Pipelines.git"
+  },
+  {
+    "full_name": "mengdong/kubeflow-pipeline-nvidia-example",
+    "html_url": "https://github.com/mengdong/kubeflow-pipeline-nvidia-example",
+    "stars": 1,
+    "clone_url": "https://github.com/mengdong/kubeflow-pipeline-nvidia-example.git"
+  },
+  {
+    "full_name": "sanghunmoon/pytorch_classifier_pipeline",
+    "html_url": "https://github.com/sanghunmoon/pytorch_classifier_pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/sanghunmoon/pytorch_classifier_pipeline.git"
+  },
+  {
+    "full_name": "kongkip/fashion-mnist-kubeflow-kale",
+    "html_url": "https://github.com/kongkip/fashion-mnist-kubeflow-kale",
+    "stars": 1,
+    "clone_url": "https://github.com/kongkip/fashion-mnist-kubeflow-kale.git"
+  },
+  {
+    "full_name": "Etheredge-Works/pipeline_components",
+    "html_url": "https://github.com/Etheredge-Works/pipeline_components",
+    "stars": 1,
+    "clone_url": "https://github.com/Etheredge-Works/pipeline_components.git"
+  },
+  {
+    "full_name": "tuhinaprasad28/Machine-Learning-Pipeline-using-Kubeflow",
+    "html_url": "https://github.com/tuhinaprasad28/Machine-Learning-Pipeline-using-Kubeflow",
+    "stars": 1,
+    "clone_url": "https://github.com/tuhinaprasad28/Machine-Learning-Pipeline-using-Kubeflow.git"
+  },
+  {
+    "full_name": "mayowaoyaleke/Churn_prediction_Kubeflow_GCP_pipeline",
+    "html_url": "https://github.com/mayowaoyaleke/Churn_prediction_Kubeflow_GCP_pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/mayowaoyaleke/Churn_prediction_Kubeflow_GCP_pipeline.git"
+  },
+  {
+    "full_name": "nnkkmto/sample-vertex-pipelines",
+    "html_url": "https://github.com/nnkkmto/sample-vertex-pipelines",
+    "stars": 1,
+    "clone_url": "https://github.com/nnkkmto/sample-vertex-pipelines.git"
+  },
+  {
+    "full_name": "butuzov/kubeflow-pipline-pytorch-tacatron",
+    "html_url": "https://github.com/butuzov/kubeflow-pipline-pytorch-tacatron",
+    "stars": 1,
+    "clone_url": "https://github.com/butuzov/kubeflow-pipline-pytorch-tacatron.git"
+  },
+  {
+    "full_name": "hermesribeiro/kubeflow_pytorch",
+    "html_url": "https://github.com/hermesribeiro/kubeflow_pytorch",
+    "stars": 1,
+    "clone_url": "https://github.com/hermesribeiro/kubeflow_pytorch.git"
+  },
+  {
+    "full_name": "litovn/kubeflow-autopipe",
+    "html_url": "https://github.com/litovn/kubeflow-autopipe",
+    "stars": 1,
+    "clone_url": "https://github.com/litovn/kubeflow-autopipe.git"
+  },
+  {
+    "full_name": "gabrielpreda/fmnist_classifier_vertexai_pipeline",
+    "html_url": "https://github.com/gabrielpreda/fmnist_classifier_vertexai_pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/gabrielpreda/fmnist_classifier_vertexai_pipeline.git"
+  },
+  {
+    "full_name": "speg03/kfp-toolbox",
+    "html_url": "https://github.com/speg03/kfp-toolbox",
+    "stars": 1,
+    "clone_url": "https://github.com/speg03/kfp-toolbox.git"
+  },
+  {
+    "full_name": "abhinav-neil/tfx-kubeflow-bigq-pipe",
+    "html_url": "https://github.com/abhinav-neil/tfx-kubeflow-bigq-pipe",
+    "stars": 1,
+    "clone_url": "https://github.com/abhinav-neil/tfx-kubeflow-bigq-pipe.git"
+  },
+  {
+    "full_name": "ZoieD/kfp-resnet",
+    "html_url": "https://github.com/ZoieD/kfp-resnet",
+    "stars": 1,
+    "clone_url": "https://github.com/ZoieD/kfp-resnet.git"
+  },
+  {
+    "full_name": "shawar8/sfcrime-prediction-kubeflow",
+    "html_url": "https://github.com/shawar8/sfcrime-prediction-kubeflow",
+    "stars": 1,
+    "clone_url": "https://github.com/shawar8/sfcrime-prediction-kubeflow.git"
+  },
+  {
+    "full_name": "Davidnet/breast-cancer-detection-nnx-pipeline",
+    "html_url": "https://github.com/Davidnet/breast-cancer-detection-nnx-pipeline",
+    "stars": 1,
+    "clone_url": "https://github.com/Davidnet/breast-cancer-detection-nnx-pipeline.git"
+  },
+  {
+    "full_name": "roshanshuk/Docker-hub-ml",
+    "html_url": "https://github.com/roshanshuk/Docker-hub-ml",
+    "stars": 1,
+    "clone_url": "https://github.com/roshanshuk/Docker-hub-ml.git"
+  },
+  {
+    "full_name": "pavan-kumar-99/ml-ops",
+    "html_url": "https://github.com/pavan-kumar-99/ml-ops",
+    "stars": 1,
+    "clone_url": "https://github.com/pavan-kumar-99/ml-ops.git"
+  },
+  {
+    "full_name": "03sarath/Kubeflow-pipelines-mlops",
+    "html_url": "https://github.com/03sarath/Kubeflow-pipelines-mlops",
+    "stars": 0,
+    "clone_url": "https://github.com/03sarath/Kubeflow-pipelines-mlops.git"
+  },
+  {
+    "full_name": "rakesh283343/kubeflow-pipelines-clv",
+    "html_url": "https://github.com/rakesh283343/kubeflow-pipelines-clv",
+    "stars": 0,
+    "clone_url": "https://github.com/rakesh283343/kubeflow-pipelines-clv.git"
+  },
+  {
+    "full_name": "anupr567/kubeflow_pipeline",
+    "html_url": "https://github.com/anupr567/kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/anupr567/kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "AaronGrainer/tfx-kubeflow-pipeline",
+    "html_url": "https://github.com/AaronGrainer/tfx-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/AaronGrainer/tfx-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "9rince/kfp",
+    "html_url": "https://github.com/9rince/kfp",
+    "stars": 0,
+    "clone_url": "https://github.com/9rince/kfp.git"
+  },
+  {
+    "full_name": "raviranjan0309/kubeflow-fairing-pipeline",
+    "html_url": "https://github.com/raviranjan0309/kubeflow-fairing-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/raviranjan0309/kubeflow-fairing-pipeline.git"
+  },
+  {
+    "full_name": "fybrik/kfp-components",
+    "html_url": "https://github.com/fybrik/kfp-components",
+    "stars": 0,
+    "clone_url": "https://github.com/fybrik/kfp-components.git"
+  },
+  {
+    "full_name": "ajinkya933/Kubeflow",
+    "html_url": "https://github.com/ajinkya933/Kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/ajinkya933/Kubeflow.git"
+  },
+  {
+    "full_name": "difince/kubeflow-pipeline-development",
+    "html_url": "https://github.com/difince/kubeflow-pipeline-development",
+    "stars": 0,
+    "clone_url": "https://github.com/difince/kubeflow-pipeline-development.git"
+  },
+  {
+    "full_name": "omkarakaya/kubeflow-recommender",
+    "html_url": "https://github.com/omkarakaya/kubeflow-recommender",
+    "stars": 0,
+    "clone_url": "https://github.com/omkarakaya/kubeflow-recommender.git"
+  },
+  {
+    "full_name": "II-VSB-II/TaxiClassificationKubeflowPipelineMinio",
+    "html_url": "https://github.com/II-VSB-II/TaxiClassificationKubeflowPipelineMinio",
+    "stars": 0,
+    "clone_url": "https://github.com/II-VSB-II/TaxiClassificationKubeflowPipelineMinio.git"
+  },
+  {
+    "full_name": "bharathkumar522/Ansible-to-Kubeflow-Pipelines-with-minikube",
+    "html_url": "https://github.com/bharathkumar522/Ansible-to-Kubeflow-Pipelines-with-minikube",
+    "stars": 0,
+    "clone_url": "https://github.com/bharathkumar522/Ansible-to-Kubeflow-Pipelines-with-minikube.git"
+  },
+  {
+    "full_name": "CRSilkworth/mlp",
+    "html_url": "https://github.com/CRSilkworth/mlp",
+    "stars": 0,
+    "clone_url": "https://github.com/CRSilkworth/mlp.git"
+  },
+  {
+    "full_name": "stackdemos/kf-flatcar2",
+    "html_url": "https://github.com/stackdemos/kf-flatcar2",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-flatcar2.git"
+  },
+  {
+    "full_name": "stackdemos/jjtest-ml",
+    "html_url": "https://github.com/stackdemos/jjtest-ml",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/jjtest-ml.git"
+  },
+  {
+    "full_name": "stackdemos/jj-test2",
+    "html_url": "https://github.com/stackdemos/jj-test2",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/jj-test2.git"
+  },
+  {
+    "full_name": "stackdemos/kfp125",
+    "html_url": "https://github.com/stackdemos/kfp125",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfp125.git"
+  },
+  {
+    "full_name": "stackdemos/kcdemo",
+    "html_url": "https://github.com/stackdemos/kcdemo",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kcdemo.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm2",
+    "html_url": "https://github.com/stackdemos/ghsumm2",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm2.git"
+  },
+  {
+    "full_name": "stackdemos/kf-acm-hr-01",
+    "html_url": "https://github.com/stackdemos/kf-acm-hr-01",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-acm-hr-01.git"
+  },
+  {
+    "full_name": "OneMoeLine/kubeflow-ml-sandbox",
+    "html_url": "https://github.com/OneMoeLine/kubeflow-ml-sandbox",
+    "stars": 0,
+    "clone_url": "https://github.com/OneMoeLine/kubeflow-ml-sandbox.git"
+  },
+  {
+    "full_name": "stackdemos/kube-pipe",
+    "html_url": "https://github.com/stackdemos/kube-pipe",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kube-pipe.git"
+  },
+  {
+    "full_name": "stackdemos/specs-kf4",
+    "html_url": "https://github.com/stackdemos/specs-kf4",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/specs-kf4.git"
+  },
+  {
+    "full_name": "stackdemos/royalgo",
+    "html_url": "https://github.com/stackdemos/royalgo",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/royalgo.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm5s3",
+    "html_url": "https://github.com/stackdemos/ghsumm5s3",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm5s3.git"
+  },
+  {
+    "full_name": "stackdemos/kf-mission",
+    "html_url": "https://github.com/stackdemos/kf-mission",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-mission.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm4",
+    "html_url": "https://github.com/stackdemos/ghsumm4",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm4.git"
+  },
+  {
+    "full_name": "stackdemos/s3ghsumm1",
+    "html_url": "https://github.com/stackdemos/s3ghsumm1",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/s3ghsumm1.git"
+  },
+  {
+    "full_name": "stackdemos/objection-03",
+    "html_url": "https://github.com/stackdemos/objection-03",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/objection-03.git"
+  },
+  {
+    "full_name": "stackdemos/kftest-jmck",
+    "html_url": "https://github.com/stackdemos/kftest-jmck",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kftest-jmck.git"
+  },
+  {
+    "full_name": "stackdemos/happy-kubeflow",
+    "html_url": "https://github.com/stackdemos/happy-kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/happy-kubeflow.git"
+  },
+  {
+    "full_name": "asibot/smoke-arkadi-kubeflow-01",
+    "html_url": "https://github.com/asibot/smoke-arkadi-kubeflow-01",
+    "stars": 0,
+    "clone_url": "https://github.com/asibot/smoke-arkadi-kubeflow-01.git"
+  },
+  {
+    "full_name": "stackdemos/ghsum1",
+    "html_url": "https://github.com/stackdemos/ghsum1",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsum1.git"
+  },
+  {
+    "full_name": "stackdemos/ml-kbf",
+    "html_url": "https://github.com/stackdemos/ml-kbf",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ml-kbf.git"
+  },
+  {
+    "full_name": "stackdemos/kfp123",
+    "html_url": "https://github.com/stackdemos/kfp123",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfp123.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm8",
+    "html_url": "https://github.com/stackdemos/ghsumm8",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm8.git"
+  },
+  {
+    "full_name": "stackdemos/demo-nkhare",
+    "html_url": "https://github.com/stackdemos/demo-nkhare",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/demo-nkhare.git"
+  },
+  {
+    "full_name": "stackdemos/kfx",
+    "html_url": "https://github.com/stackdemos/kfx",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfx.git"
+  },
+  {
+    "full_name": "akranga/anton1",
+    "html_url": "https://github.com/akranga/anton1",
+    "stars": 0,
+    "clone_url": "https://github.com/akranga/anton1.git"
+  },
+  {
+    "full_name": "stackdemos/js-kubeflow-test",
+    "html_url": "https://github.com/stackdemos/js-kubeflow-test",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/js-kubeflow-test.git"
+  },
+  {
+    "full_name": "stackdemos/anton1",
+    "html_url": "https://github.com/stackdemos/anton1",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/anton1.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm1",
+    "html_url": "https://github.com/stackdemos/ghsumm1",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm1.git"
+  },
+  {
+    "full_name": "stackdemos/jsu-ml1101",
+    "html_url": "https://github.com/stackdemos/jsu-ml1101",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/jsu-ml1101.git"
+  },
+  {
+    "full_name": "stackdemos/s3yolo",
+    "html_url": "https://github.com/stackdemos/s3yolo",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/s3yolo.git"
+  },
+  {
+    "full_name": "akranga/anton2",
+    "html_url": "https://github.com/akranga/anton2",
+    "stars": 0,
+    "clone_url": "https://github.com/akranga/anton2.git"
+  },
+  {
+    "full_name": "stackdemos/kf-ghsumm",
+    "html_url": "https://github.com/stackdemos/kf-ghsumm",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-ghsumm.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm6",
+    "html_url": "https://github.com/stackdemos/ghsumm6",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm6.git"
+  },
+  {
+    "full_name": "stackdemos/nkhare-demo",
+    "html_url": "https://github.com/stackdemos/nkhare-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/nkhare-demo.git"
+  },
+  {
+    "full_name": "asibot/kube-app-01",
+    "html_url": "https://github.com/asibot/kube-app-01",
+    "stars": 0,
+    "clone_url": "https://github.com/asibot/kube-app-01.git"
+  },
+  {
+    "full_name": "stackdemos/s3-object-detection",
+    "html_url": "https://github.com/stackdemos/s3-object-detection",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/s3-object-detection.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm7",
+    "html_url": "https://github.com/stackdemos/ghsumm7",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm7.git"
+  },
+  {
+    "full_name": "stackdemos/kf2",
+    "html_url": "https://github.com/stackdemos/kf2",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf2.git"
+  },
+  {
+    "full_name": "stackdemos/kf-acm-ov",
+    "html_url": "https://github.com/stackdemos/kf-acm-ov",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-acm-ov.git"
+  },
+  {
+    "full_name": "stackdemos/kfxanya",
+    "html_url": "https://github.com/stackdemos/kfxanya",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfxanya.git"
+  },
+  {
+    "full_name": "stackdemos/kf-acm-ecr-02",
+    "html_url": "https://github.com/stackdemos/kf-acm-ecr-02",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-acm-ecr-02.git"
+  },
+  {
+    "full_name": "stackdemos/kfp12",
+    "html_url": "https://github.com/stackdemos/kfp12",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfp12.git"
+  },
+  {
+    "full_name": "stackdemos/object-detection-2",
+    "html_url": "https://github.com/stackdemos/object-detection-2",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/object-detection-2.git"
+  },
+  {
+    "full_name": "stackdemos/01092020-kftest",
+    "html_url": "https://github.com/stackdemos/01092020-kftest",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/01092020-kftest.git"
+  },
+  {
+    "full_name": "KennedyUC/kubeflow-pipeline",
+    "html_url": "https://github.com/KennedyUC/kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/KennedyUC/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "stackdemos/ghsumm1-st",
+    "html_url": "https://github.com/stackdemos/ghsumm1-st",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/ghsumm1-st.git"
+  },
+  {
+    "full_name": "stackdemos/object-detection-5",
+    "html_url": "https://github.com/stackdemos/object-detection-5",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/object-detection-5.git"
+  },
+  {
+    "full_name": "stackdemos/kubeflow-dev",
+    "html_url": "https://github.com/stackdemos/kubeflow-dev",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kubeflow-dev.git"
+  },
+  {
+    "full_name": "stackdemos/royalflow",
+    "html_url": "https://github.com/stackdemos/royalflow",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/royalflow.git"
+  },
+  {
+    "full_name": "stackdemos/kf-spec7",
+    "html_url": "https://github.com/stackdemos/kf-spec7",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-spec7.git"
+  },
+  {
+    "full_name": "stackdemos/kfp1",
+    "html_url": "https://github.com/stackdemos/kfp1",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfp1.git"
+  },
+  {
+    "full_name": "s102401002/kubeflowPipeline2",
+    "html_url": "https://github.com/s102401002/kubeflowPipeline2",
+    "stars": 0,
+    "clone_url": "https://github.com/s102401002/kubeflowPipeline2.git"
+  },
+  {
+    "full_name": "stackdemos/kf4",
+    "html_url": "https://github.com/stackdemos/kf4",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf4.git"
+  },
+  {
+    "full_name": "stackdemos/joe-kubeflow-test",
+    "html_url": "https://github.com/stackdemos/joe-kubeflow-test",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/joe-kubeflow-test.git"
+  },
+  {
+    "full_name": "stackdemos/kfp11",
+    "html_url": "https://github.com/stackdemos/kfp11",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfp11.git"
+  },
+  {
+    "full_name": "stackdemos/specs-kf5",
+    "html_url": "https://github.com/stackdemos/specs-kf5",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/specs-kf5.git"
+  },
+  {
+    "full_name": "akranga/anton-ml1",
+    "html_url": "https://github.com/akranga/anton-ml1",
+    "stars": 0,
+    "clone_url": "https://github.com/akranga/anton-ml1.git"
+  },
+  {
+    "full_name": "baebae-dev/kubeflow-pipelines",
+    "html_url": "https://github.com/baebae-dev/kubeflow-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/baebae-dev/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "stackdemos/secrets-tetst-01",
+    "html_url": "https://github.com/stackdemos/secrets-tetst-01",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/secrets-tetst-01.git"
+  },
+  {
+    "full_name": "stackdemos/kfappx",
+    "html_url": "https://github.com/stackdemos/kfappx",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kfappx.git"
+  },
+  {
+    "full_name": "akranga/machine-learning1",
+    "html_url": "https://github.com/akranga/machine-learning1",
+    "stars": 0,
+    "clone_url": "https://github.com/akranga/machine-learning1.git"
+  },
+  {
+    "full_name": "telpirion/KubeflowPipelinesPractice",
+    "html_url": "https://github.com/telpirion/KubeflowPipelinesPractice",
+    "stars": 0,
+    "clone_url": "https://github.com/telpirion/KubeflowPipelinesPractice.git"
+  },
+  {
+    "full_name": "ArianFotouhi/kubeflowPipelineSpamDetector",
+    "html_url": "https://github.com/ArianFotouhi/kubeflowPipelineSpamDetector",
+    "stars": 0,
+    "clone_url": "https://github.com/ArianFotouhi/kubeflowPipelineSpamDetector.git"
+  },
+  {
+    "full_name": "felipeacunago/kubeflow",
+    "html_url": "https://github.com/felipeacunago/kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/felipeacunago/kubeflow.git"
+  },
+  {
+    "full_name": "rakesh283343/kubeflow-sample-pipelines",
+    "html_url": "https://github.com/rakesh283343/kubeflow-sample-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/rakesh283343/kubeflow-sample-pipelines.git"
+  },
+  {
+    "full_name": "yeonsssu26/KFP",
+    "html_url": "https://github.com/yeonsssu26/KFP",
+    "stars": 0,
+    "clone_url": "https://github.com/yeonsssu26/KFP.git"
+  },
+  {
+    "full_name": "ykihong0/twotwo",
+    "html_url": "https://github.com/ykihong0/twotwo",
+    "stars": 0,
+    "clone_url": "https://github.com/ykihong0/twotwo.git"
+  },
+  {
+    "full_name": "stackdemos/kubeflow-acmecr",
+    "html_url": "https://github.com/stackdemos/kubeflow-acmecr",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kubeflow-acmecr.git"
+  },
+  {
+    "full_name": "ajperry2/kubeflow_pipeline",
+    "html_url": "https://github.com/ajperry2/kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/ajperry2/kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "viraj-s15/KubeflowAccuPred",
+    "html_url": "https://github.com/viraj-s15/KubeflowAccuPred",
+    "stars": 0,
+    "clone_url": "https://github.com/viraj-s15/KubeflowAccuPred.git"
+  },
+  {
+    "full_name": "omiearicent/kubeflow_pipeline",
+    "html_url": "https://github.com/omiearicent/kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/omiearicent/kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "slv-ai/kubeflow-pipelines",
+    "html_url": "https://github.com/slv-ai/kubeflow-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/slv-ai/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "stackdemos/snehal-kubeflow-ml",
+    "html_url": "https://github.com/stackdemos/snehal-kubeflow-ml",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/snehal-kubeflow-ml.git"
+  },
+  {
+    "full_name": "tam0201/kubeflow-pipeline",
+    "html_url": "https://github.com/tam0201/kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/tam0201/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "bartosz-bok/kubeflow-pipelines",
+    "html_url": "https://github.com/bartosz-bok/kubeflow-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/bartosz-bok/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "akontaxakis/kubeflow_pipelines",
+    "html_url": "https://github.com/akontaxakis/kubeflow_pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/akontaxakis/kubeflow_pipelines.git"
+  },
+  {
+    "full_name": "rishabhvimal/kubeflow_pipeline",
+    "html_url": "https://github.com/rishabhvimal/kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/rishabhvimal/kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "gerardfarm/Kubeflow-Pipelines",
+    "html_url": "https://github.com/gerardfarm/Kubeflow-Pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/gerardfarm/Kubeflow-Pipelines.git"
+  },
+  {
+    "full_name": "kavindu-1227/kubeflow-pipelines",
+    "html_url": "https://github.com/kavindu-1227/kubeflow-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/kavindu-1227/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "kikuriyou/Kubeflow-pipelines",
+    "html_url": "https://github.com/kikuriyou/Kubeflow-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/kikuriyou/Kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "terryc-hpe/Kubeflow-Pipelines",
+    "html_url": "https://github.com/terryc-hpe/Kubeflow-Pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/terryc-hpe/Kubeflow-Pipelines.git"
+  },
+  {
+    "full_name": "terus-lim-df/kubeflow-pipeline",
+    "html_url": "https://github.com/terus-lim-df/kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/terus-lim-df/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "SWE-Gym-Raw/kubeflow__pipelines",
+    "html_url": "https://github.com/SWE-Gym-Raw/kubeflow__pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/SWE-Gym-Raw/kubeflow__pipelines.git"
+  },
+  {
+    "full_name": "gbhasin0828/Kubeflow_Pipeline",
+    "html_url": "https://github.com/gbhasin0828/Kubeflow_Pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/gbhasin0828/Kubeflow_Pipeline.git"
+  },
+  {
+    "full_name": "Jabor047/Kubeflow-Pipelines",
+    "html_url": "https://github.com/Jabor047/Kubeflow-Pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/Jabor047/Kubeflow-Pipelines.git"
+  },
+  {
+    "full_name": "saif2912/kubeflow-pipeline",
+    "html_url": "https://github.com/saif2912/kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/saif2912/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "qiuosier/kubeflow_pipelines",
+    "html_url": "https://github.com/qiuosier/kubeflow_pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/qiuosier/kubeflow_pipelines.git"
+  },
+  {
+    "full_name": "tiktakdad/kubeflow_pipeline",
+    "html_url": "https://github.com/tiktakdad/kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/tiktakdad/kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "comet-ml/kubeflow-pipeline",
+    "html_url": "https://github.com/comet-ml/kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/comet-ml/kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "swe-train/kubeflow__pipelines",
+    "html_url": "https://github.com/swe-train/kubeflow__pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/swe-train/kubeflow__pipelines.git"
+  },
+  {
+    "full_name": "johannesmphaka/pipeline_kubeflow",
+    "html_url": "https://github.com/johannesmphaka/pipeline_kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/johannesmphaka/pipeline_kubeflow.git"
+  },
+  {
+    "full_name": "smk508/kung-fu-pipelines",
+    "html_url": "https://github.com/smk508/kung-fu-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/smk508/kung-fu-pipelines.git"
+  },
+  {
+    "full_name": "duttab49/kubeflow-pipelines",
+    "html_url": "https://github.com/duttab49/kubeflow-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/duttab49/kubeflow-pipelines.git"
+  },
+  {
+    "full_name": "dhiebtarak/kubeflow_pipeline",
+    "html_url": "https://github.com/dhiebtarak/kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/dhiebtarak/kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "stackdemos/kubeflow-acm-ecr",
+    "html_url": "https://github.com/stackdemos/kubeflow-acm-ecr",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kubeflow-acm-ecr.git"
+  },
+  {
+    "full_name": "stackdemos/s3-kubeflow-asi",
+    "html_url": "https://github.com/stackdemos/s3-kubeflow-asi",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/s3-kubeflow-asi.git"
+  },
+  {
+    "full_name": "antongollbo123/kfp_utils",
+    "html_url": "https://github.com/antongollbo123/kfp_utils",
+    "stars": 0,
+    "clone_url": "https://github.com/antongollbo123/kfp_utils.git"
+  },
+  {
+    "full_name": "odellus/kubeflow_pipeline_examples",
+    "html_url": "https://github.com/odellus/kubeflow_pipeline_examples",
+    "stars": 0,
+    "clone_url": "https://github.com/odellus/kubeflow_pipeline_examples.git"
+  },
+  {
+    "full_name": "borisevich-a-v/kubeflow_pipelines_edu",
+    "html_url": "https://github.com/borisevich-a-v/kubeflow_pipelines_edu",
+    "stars": 0,
+    "clone_url": "https://github.com/borisevich-a-v/kubeflow_pipelines_edu.git"
+  },
+  {
+    "full_name": "talaman/kubeflow-ml-pipeline",
+    "html_url": "https://github.com/talaman/kubeflow-ml-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/talaman/kubeflow-ml-pipeline.git"
+  },
+  {
+    "full_name": "zinzinhust96/kubeflow_pipeline_examples",
+    "html_url": "https://github.com/zinzinhust96/kubeflow_pipeline_examples",
+    "stars": 0,
+    "clone_url": "https://github.com/zinzinhust96/kubeflow_pipeline_examples.git"
+  },
+  {
+    "full_name": "keyog0/kubeflow-pipeline-login",
+    "html_url": "https://github.com/keyog0/kubeflow-pipeline-login",
+    "stars": 0,
+    "clone_url": "https://github.com/keyog0/kubeflow-pipeline-login.git"
+  },
+  {
+    "full_name": "ima-tester/sample-kubeflow-app-001",
+    "html_url": "https://github.com/ima-tester/sample-kubeflow-app-001",
+    "stars": 0,
+    "clone_url": "https://github.com/ima-tester/sample-kubeflow-app-001.git"
+  },
+  {
+    "full_name": "davide-belfiori/kubeflow_test_pipelines",
+    "html_url": "https://github.com/davide-belfiori/kubeflow_test_pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/davide-belfiori/kubeflow_test_pipelines.git"
+  },
+  {
+    "full_name": "ahmedyass/mnist-kubeflow-pipeline",
+    "html_url": "https://github.com/ahmedyass/mnist-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/ahmedyass/mnist-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "MouadE0/Kubeflow-Regression-Pipeline",
+    "html_url": "https://github.com/MouadE0/Kubeflow-Regression-Pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/MouadE0/Kubeflow-Regression-Pipeline.git"
+  },
+  {
+    "full_name": "tanzumlai/sample-kubeflow-pipeline",
+    "html_url": "https://github.com/tanzumlai/sample-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/tanzumlai/sample-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "albert-cintas-pot/kubeflow-delete-pipeline",
+    "html_url": "https://github.com/albert-cintas-pot/kubeflow-delete-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/albert-cintas-pot/kubeflow-delete-pipeline.git"
+  },
+  {
+    "full_name": "Our-Glass/kubeflow_pipelines_example",
+    "html_url": "https://github.com/Our-Glass/kubeflow_pipelines_example",
+    "stars": 0,
+    "clone_url": "https://github.com/Our-Glass/kubeflow_pipelines_example.git"
+  },
+  {
+    "full_name": "mouachan/kubeflow-pipeline-project",
+    "html_url": "https://github.com/mouachan/kubeflow-pipeline-project",
+    "stars": 0,
+    "clone_url": "https://github.com/mouachan/kubeflow-pipeline-project.git"
+  },
+  {
+    "full_name": "chuyangzh/kubeflow-spark-pipeline",
+    "html_url": "https://github.com/chuyangzh/kubeflow-spark-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/chuyangzh/kubeflow-spark-pipeline.git"
+  },
+  {
+    "full_name": "quynhtl/kubeflow-pipeline-learn",
+    "html_url": "https://github.com/quynhtl/kubeflow-pipeline-learn",
+    "stars": 0,
+    "clone_url": "https://github.com/quynhtl/kubeflow-pipeline-learn.git"
+  },
+  {
+    "full_name": "j-cunanan/kubeflow-pipelines-TFOD",
+    "html_url": "https://github.com/j-cunanan/kubeflow-pipelines-TFOD",
+    "stars": 0,
+    "clone_url": "https://github.com/j-cunanan/kubeflow-pipelines-TFOD.git"
+  },
+  {
+    "full_name": "Minseojeonn/Kubeflow_capstone_pipeline",
+    "html_url": "https://github.com/Minseojeonn/Kubeflow_capstone_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Minseojeonn/Kubeflow_capstone_pipeline.git"
+  },
+  {
+    "full_name": "Louis5499/Kubeflow-mnist-pipeline",
+    "html_url": "https://github.com/Louis5499/Kubeflow-mnist-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Louis5499/Kubeflow-mnist-pipeline.git"
+  },
+  {
+    "full_name": "khongtrunght/kubeflow-pipeline-learn",
+    "html_url": "https://github.com/khongtrunght/kubeflow-pipeline-learn",
+    "stars": 0,
+    "clone_url": "https://github.com/khongtrunght/kubeflow-pipeline-learn.git"
+  },
+  {
+    "full_name": "iqer/kubeflow_demo_pipeline",
+    "html_url": "https://github.com/iqer/kubeflow_demo_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/iqer/kubeflow_demo_pipeline.git"
+  },
+  {
+    "full_name": "sagravat/kubeflow-pipelines-examples",
+    "html_url": "https://github.com/sagravat/kubeflow-pipelines-examples",
+    "stars": 0,
+    "clone_url": "https://github.com/sagravat/kubeflow-pipelines-examples.git"
+  },
+  {
+    "full_name": "luizrennocosta/kubeflow-ml-pipeline",
+    "html_url": "https://github.com/luizrennocosta/kubeflow-ml-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/luizrennocosta/kubeflow-ml-pipeline.git"
+  },
+  {
+    "full_name": "Here2ServeU/kubeflow-ml-pipeline",
+    "html_url": "https://github.com/Here2ServeU/kubeflow-ml-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Here2ServeU/kubeflow-ml-pipeline.git"
+  },
+  {
+    "full_name": "javierdarksoul/Kubeflow-pipelines-tutorial",
+    "html_url": "https://github.com/javierdarksoul/Kubeflow-pipelines-tutorial",
+    "stars": 0,
+    "clone_url": "https://github.com/javierdarksoul/Kubeflow-pipelines-tutorial.git"
+  },
+  {
+    "full_name": "THEANMOZHI/kubeflow-iris-pipeline",
+    "html_url": "https://github.com/THEANMOZHI/kubeflow-iris-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/THEANMOZHI/kubeflow-iris-pipeline.git"
+  },
+  {
+    "full_name": "prahaladp8/LogisticPipeline_Kubeflow",
+    "html_url": "https://github.com/prahaladp8/LogisticPipeline_Kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/prahaladp8/LogisticPipeline_Kubeflow.git"
+  },
+  {
+    "full_name": "agapebondservant/kubeflow-pipelines-accelerator",
+    "html_url": "https://github.com/agapebondservant/kubeflow-pipelines-accelerator",
+    "stars": 0,
+    "clone_url": "https://github.com/agapebondservant/kubeflow-pipelines-accelerator.git"
+  },
+  {
+    "full_name": "himanshusharma89/kubeflow-ml-pipeline",
+    "html_url": "https://github.com/himanshusharma89/kubeflow-ml-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/himanshusharma89/kubeflow-ml-pipeline.git"
+  },
+  {
+    "full_name": "Stevedev7/kubeflow-simple-pipeline",
+    "html_url": "https://github.com/Stevedev7/kubeflow-simple-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Stevedev7/kubeflow-simple-pipeline.git"
+  },
+  {
+    "full_name": "Louis5499/DRAGON-Kubeflow",
+    "html_url": "https://github.com/Louis5499/DRAGON-Kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/Louis5499/DRAGON-Kubeflow.git"
+  },
+  {
+    "full_name": "dhodun/kubeflow-pipeline-examples",
+    "html_url": "https://github.com/dhodun/kubeflow-pipeline-examples",
+    "stars": 0,
+    "clone_url": "https://github.com/dhodun/kubeflow-pipeline-examples.git"
+  },
+  {
+    "full_name": "ventus550/kubeflow-pipelines-project",
+    "html_url": "https://github.com/ventus550/kubeflow-pipelines-project",
+    "stars": 0,
+    "clone_url": "https://github.com/ventus550/kubeflow-pipelines-project.git"
+  },
+  {
+    "full_name": "Michallote/kubeflow-from-pipeline",
+    "html_url": "https://github.com/Michallote/kubeflow-from-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Michallote/kubeflow-from-pipeline.git"
+  },
+  {
+    "full_name": "kashiftriffort/kubeflow-pipelines-master",
+    "html_url": "https://github.com/kashiftriffort/kubeflow-pipelines-master",
+    "stars": 0,
+    "clone_url": "https://github.com/kashiftriffort/kubeflow-pipelines-master.git"
+  },
+  {
+    "full_name": "ygeat7/kubeflow_pipeline_myxgb",
+    "html_url": "https://github.com/ygeat7/kubeflow_pipeline_myxgb",
+    "stars": 0,
+    "clone_url": "https://github.com/ygeat7/kubeflow_pipeline_myxgb.git"
+  },
+  {
+    "full_name": "Nannakaroliina/kubeflow-pipeline-demo",
+    "html_url": "https://github.com/Nannakaroliina/kubeflow-pipeline-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/Nannakaroliina/kubeflow-pipeline-demo.git"
+  },
+  {
+    "full_name": "nevrets/kubeflow-pipelines-example",
+    "html_url": "https://github.com/nevrets/kubeflow-pipelines-example",
+    "stars": 0,
+    "clone_url": "https://github.com/nevrets/kubeflow-pipelines-example.git"
+  },
+  {
+    "full_name": "ithingv/kubeflow_pipeline_mnist",
+    "html_url": "https://github.com/ithingv/kubeflow_pipeline_mnist",
+    "stars": 0,
+    "clone_url": "https://github.com/ithingv/kubeflow_pipeline_mnist.git"
+  },
+  {
+    "full_name": "raldebsi/Kubeflow-Experimental-Pipelines",
+    "html_url": "https://github.com/raldebsi/Kubeflow-Experimental-Pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/raldebsi/Kubeflow-Experimental-Pipelines.git"
+  },
+  {
+    "full_name": "markbarna/kubeflow-pipelines-poc",
+    "html_url": "https://github.com/markbarna/kubeflow-pipelines-poc",
+    "stars": 0,
+    "clone_url": "https://github.com/markbarna/kubeflow-pipelines-poc.git"
+  },
+  {
+    "full_name": "hafizurcse/azure-kubeflow-pipeline",
+    "html_url": "https://github.com/hafizurcse/azure-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/hafizurcse/azure-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "fontaine-raphael/kubeflow",
+    "html_url": "https://github.com/fontaine-raphael/kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/fontaine-raphael/kubeflow.git"
+  },
+  {
+    "full_name": "ryanrusson/kubeflow-pipelines-docker",
+    "html_url": "https://github.com/ryanrusson/kubeflow-pipelines-docker",
+    "stars": 0,
+    "clone_url": "https://github.com/ryanrusson/kubeflow-pipelines-docker.git"
+  },
+  {
+    "full_name": "KunWangV/kubeflow-pipeline-images",
+    "html_url": "https://github.com/KunWangV/kubeflow-pipeline-images",
+    "stars": 0,
+    "clone_url": "https://github.com/KunWangV/kubeflow-pipeline-images.git"
+  },
+  {
+    "full_name": "rahuja23/Blogpost_kubeflow_pipeline",
+    "html_url": "https://github.com/rahuja23/Blogpost_kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/rahuja23/Blogpost_kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "chetkurisai/mlops-kubeflow-pipeline",
+    "html_url": "https://github.com/chetkurisai/mlops-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/chetkurisai/mlops-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "imsazzad/kubeflow-piplines-ml",
+    "html_url": "https://github.com/imsazzad/kubeflow-piplines-ml",
+    "stars": 0,
+    "clone_url": "https://github.com/imsazzad/kubeflow-piplines-ml.git"
+  },
+  {
+    "full_name": "sfujiwara/kfpc",
+    "html_url": "https://github.com/sfujiwara/kfpc",
+    "stars": 0,
+    "clone_url": "https://github.com/sfujiwara/kfpc.git"
+  },
+  {
+    "full_name": "dhirajpatra/kubeflow-demo",
+    "html_url": "https://github.com/dhirajpatra/kubeflow-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/dhirajpatra/kubeflow-demo.git"
+  },
+  {
+    "full_name": "secrettoad/kubeflow",
+    "html_url": "https://github.com/secrettoad/kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/secrettoad/kubeflow.git"
+  },
+  {
+    "full_name": "romanzdk/-test-kubeflow",
+    "html_url": "https://github.com/romanzdk/-test-kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/romanzdk/-test-kubeflow.git"
+  },
+  {
+    "full_name": "Natrofl/kubeflow-linear-pipline",
+    "html_url": "https://github.com/Natrofl/kubeflow-linear-pipline",
+    "stars": 0,
+    "clone_url": "https://github.com/Natrofl/kubeflow-linear-pipline.git"
+  },
+  {
+    "full_name": "mameshini/ml-kfp-1",
+    "html_url": "https://github.com/mameshini/ml-kfp-1",
+    "stars": 0,
+    "clone_url": "https://github.com/mameshini/ml-kfp-1.git"
+  },
+  {
+    "full_name": "TassaraR/vertex-kubeflow-pipelines-tutorial",
+    "html_url": "https://github.com/TassaraR/vertex-kubeflow-pipelines-tutorial",
+    "stars": 0,
+    "clone_url": "https://github.com/TassaraR/vertex-kubeflow-pipelines-tutorial.git"
+  },
+  {
+    "full_name": "Realayushimishra/kubeflow-simple-pipeline-copy",
+    "html_url": "https://github.com/Realayushimishra/kubeflow-simple-pipeline-copy",
+    "stars": 0,
+    "clone_url": "https://github.com/Realayushimishra/kubeflow-simple-pipeline-copy.git"
+  },
+  {
+    "full_name": "stackdemos/centralstate-edu",
+    "html_url": "https://github.com/stackdemos/centralstate-edu",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/centralstate-edu.git"
+  },
+  {
+    "full_name": "HibernationNo1/project_4_kubeflow_pipeline",
+    "html_url": "https://github.com/HibernationNo1/project_4_kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/HibernationNo1/project_4_kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "tanle2694/kubeflow-resnet-tf-pipeline",
+    "html_url": "https://github.com/tanle2694/kubeflow-resnet-tf-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/tanle2694/kubeflow-resnet-tf-pipeline.git"
+  },
+  {
+    "full_name": "gnanimail/kubeflow-pipeline-aircraft-emission",
+    "html_url": "https://github.com/gnanimail/kubeflow-pipeline-aircraft-emission",
+    "stars": 0,
+    "clone_url": "https://github.com/gnanimail/kubeflow-pipeline-aircraft-emission.git"
+  },
+  {
+    "full_name": "dlfld/kubeflow-pipeline-auto-convert",
+    "html_url": "https://github.com/dlfld/kubeflow-pipeline-auto-convert",
+    "stars": 0,
+    "clone_url": "https://github.com/dlfld/kubeflow-pipeline-auto-convert.git"
+  },
+  {
+    "full_name": "F43nris/bert-sagemaker-kubeflow-pipeline",
+    "html_url": "https://github.com/F43nris/bert-sagemaker-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/F43nris/bert-sagemaker-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "Deeksha-5/Kubeflow-Model-Train-Pipeline",
+    "html_url": "https://github.com/Deeksha-5/Kubeflow-Model-Train-Pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Deeksha-5/Kubeflow-Model-Train-Pipeline.git"
+  },
+  {
+    "full_name": "PascalSchroederDE/kf-sample-pipeline",
+    "html_url": "https://github.com/PascalSchroederDE/kf-sample-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/PascalSchroederDE/kf-sample-pipeline.git"
+  },
+  {
+    "full_name": "keshavkmr48/gcpkubeflow",
+    "html_url": "https://github.com/keshavkmr48/gcpkubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/keshavkmr48/gcpkubeflow.git"
+  },
+  {
+    "full_name": "stackdemos/got-image-classification",
+    "html_url": "https://github.com/stackdemos/got-image-classification",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/got-image-classification.git"
+  },
+  {
+    "full_name": "drbwa/kfp-hello-world",
+    "html_url": "https://github.com/drbwa/kfp-hello-world",
+    "stars": 0,
+    "clone_url": "https://github.com/drbwa/kfp-hello-world.git"
+  },
+  {
+    "full_name": "hh10/Minimal-Kubeflow-Pipeline-Template",
+    "html_url": "https://github.com/hh10/Minimal-Kubeflow-Pipeline-Template",
+    "stars": 0,
+    "clone_url": "https://github.com/hh10/Minimal-Kubeflow-Pipeline-Template.git"
+  },
+  {
+    "full_name": "shahriar0999/ml-pipeline-with-kubeflow",
+    "html_url": "https://github.com/shahriar0999/ml-pipeline-with-kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/shahriar0999/ml-pipeline-with-kubeflow.git"
+  },
+  {
+    "full_name": "oucru-id/vertex-kubeflow-pipeline-sample",
+    "html_url": "https://github.com/oucru-id/vertex-kubeflow-pipeline-sample",
+    "stars": 0,
+    "clone_url": "https://github.com/oucru-id/vertex-kubeflow-pipeline-sample.git"
+  },
+  {
+    "full_name": "quynhtl/build-pipeline-on-Kubeflow",
+    "html_url": "https://github.com/quynhtl/build-pipeline-on-Kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/quynhtl/build-pipeline-on-Kubeflow.git"
+  },
+  {
+    "full_name": "ruteee/kubeflow-pipeline-gcp-deploy",
+    "html_url": "https://github.com/ruteee/kubeflow-pipeline-gcp-deploy",
+    "stars": 0,
+    "clone_url": "https://github.com/ruteee/kubeflow-pipeline-gcp-deploy.git"
+  },
+  {
+    "full_name": "lajd/local_kubeflow",
+    "html_url": "https://github.com/lajd/local_kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/lajd/local_kubeflow.git"
+  },
+  {
+    "full_name": "awskosehy/fashion_mnist_kubeflow_pipeline",
+    "html_url": "https://github.com/awskosehy/fashion_mnist_kubeflow_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/awskosehy/fashion_mnist_kubeflow_pipeline.git"
+  },
+  {
+    "full_name": "anilkharde/FlexiKubeflowPipelineSolutions",
+    "html_url": "https://github.com/anilkharde/FlexiKubeflowPipelineSolutions",
+    "stars": 0,
+    "clone_url": "https://github.com/anilkharde/FlexiKubeflowPipelineSolutions.git"
+  },
+  {
+    "full_name": "ImranRiazChohan/ml_pipeline_using_kubeflow",
+    "html_url": "https://github.com/ImranRiazChohan/ml_pipeline_using_kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/ImranRiazChohan/ml_pipeline_using_kubeflow.git"
+  },
+  {
+    "full_name": "vyomagg/poc_kubeflow_regression_pipeline",
+    "html_url": "https://github.com/vyomagg/poc_kubeflow_regression_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/vyomagg/poc_kubeflow_regression_pipeline.git"
+  },
+  {
+    "full_name": "AlbughdadiM/kubeflow-pipeline-crop-classification",
+    "html_url": "https://github.com/AlbughdadiM/kubeflow-pipeline-crop-classification",
+    "stars": 0,
+    "clone_url": "https://github.com/AlbughdadiM/kubeflow-pipeline-crop-classification.git"
+  },
+  {
+    "full_name": "biswaroop1547/skit-pipelines",
+    "html_url": "https://github.com/biswaroop1547/skit-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/biswaroop1547/skit-pipelines.git"
+  },
+  {
+    "full_name": "Taha-Cakir/Kubeflow-Pipelines-Deployment-GCP",
+    "html_url": "https://github.com/Taha-Cakir/Kubeflow-Pipelines-Deployment-GCP",
+    "stars": 0,
+    "clone_url": "https://github.com/Taha-Cakir/Kubeflow-Pipelines-Deployment-GCP.git"
+  },
+  {
+    "full_name": "kaiomurz/kubeflow-imdb",
+    "html_url": "https://github.com/kaiomurz/kubeflow-imdb",
+    "stars": 0,
+    "clone_url": "https://github.com/kaiomurz/kubeflow-imdb.git"
+  },
+  {
+    "full_name": "jbossios/ATLAS_SUSY_RPVMJ_SPANet_Pipelines",
+    "html_url": "https://github.com/jbossios/ATLAS_SUSY_RPVMJ_SPANet_Pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/jbossios/ATLAS_SUSY_RPVMJ_SPANet_Pipelines.git"
+  },
+  {
+    "full_name": "aakashbajaj/Retinal-OCT-Kubeflow",
+    "html_url": "https://github.com/aakashbajaj/Retinal-OCT-Kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/aakashbajaj/Retinal-OCT-Kubeflow.git"
+  },
+  {
+    "full_name": "ZeynepRuveyda/MLOPS_Automation_SyntheticDataCreation_and_MatsimSimulation",
+    "html_url": "https://github.com/ZeynepRuveyda/MLOPS_Automation_SyntheticDataCreation_and_MatsimSimulation",
+    "stars": 0,
+    "clone_url": "https://github.com/ZeynepRuveyda/MLOPS_Automation_SyntheticDataCreation_and_MatsimSimulation.git"
+  },
+  {
+    "full_name": "SaschaDittmann/kubeflow-azurepipeline",
+    "html_url": "https://github.com/SaschaDittmann/kubeflow-azurepipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/SaschaDittmann/kubeflow-azurepipeline.git"
+  },
+  {
+    "full_name": "ChrisOmeh/named_entity_recognition_ML_Workflow",
+    "html_url": "https://github.com/ChrisOmeh/named_entity_recognition_ML_Workflow",
+    "stars": 0,
+    "clone_url": "https://github.com/ChrisOmeh/named_entity_recognition_ML_Workflow.git"
+  },
+  {
+    "full_name": "Epochex/MLOps_Kubeflow_TwinStream_Pipeline",
+    "html_url": "https://github.com/Epochex/MLOps_Kubeflow_TwinStream_Pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Epochex/MLOps_Kubeflow_TwinStream_Pipeline.git"
+  },
+  {
+    "full_name": "Vishwajyoti/Pipelines",
+    "html_url": "https://github.com/Vishwajyoti/Pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/Vishwajyoti/Pipelines.git"
+  },
+  {
+    "full_name": "githubuserohith/llm_package",
+    "html_url": "https://github.com/githubuserohith/llm_package",
+    "stars": 0,
+    "clone_url": "https://github.com/githubuserohith/llm_package.git"
+  },
+  {
+    "full_name": "Dhananjay09/Kubeflow-Pipelines-E2E-",
+    "html_url": "https://github.com/Dhananjay09/Kubeflow-Pipelines-E2E-",
+    "stars": 0,
+    "clone_url": "https://github.com/Dhananjay09/Kubeflow-Pipelines-E2E-.git"
+  },
+  {
+    "full_name": "II-VSB-II/TaxiClassificationKubeflowPipelinePVC",
+    "html_url": "https://github.com/II-VSB-II/TaxiClassificationKubeflowPipelinePVC",
+    "stars": 0,
+    "clone_url": "https://github.com/II-VSB-II/TaxiClassificationKubeflowPipelinePVC.git"
+  },
+  {
+    "full_name": "seoeun25/ml-ops",
+    "html_url": "https://github.com/seoeun25/ml-ops",
+    "stars": 0,
+    "clone_url": "https://github.com/seoeun25/ml-ops.git"
+  },
+  {
+    "full_name": "tryster7/FuelKFP",
+    "html_url": "https://github.com/tryster7/FuelKFP",
+    "stars": 0,
+    "clone_url": "https://github.com/tryster7/FuelKFP.git"
+  },
+  {
+    "full_name": "simanadler/kfp-components",
+    "html_url": "https://github.com/simanadler/kfp-components",
+    "stars": 0,
+    "clone_url": "https://github.com/simanadler/kfp-components.git"
+  },
+  {
+    "full_name": "cliffvj/sparta-kubeflow",
+    "html_url": "https://github.com/cliffvj/sparta-kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/cliffvj/sparta-kubeflow.git"
+  },
+  {
+    "full_name": "deinal/jec-pipeline",
+    "html_url": "https://github.com/deinal/jec-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/deinal/jec-pipeline.git"
+  },
+  {
+    "full_name": "tarcis-io/demo_pipelines",
+    "html_url": "https://github.com/tarcis-io/demo_pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/tarcis-io/demo_pipelines.git"
+  },
+  {
+    "full_name": "sol-demos-01/kubeflow-ml1-demo-app",
+    "html_url": "https://github.com/sol-demos-01/kubeflow-ml1-demo-app",
+    "stars": 0,
+    "clone_url": "https://github.com/sol-demos-01/kubeflow-ml1-demo-app.git"
+  },
+  {
+    "full_name": "ajperry2/mapillary_pipeline",
+    "html_url": "https://github.com/ajperry2/mapillary_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/ajperry2/mapillary_pipeline.git"
+  },
+  {
+    "full_name": "Dave-Vedant/project.toxic-comment-removal-kubeflow-pipeline",
+    "html_url": "https://github.com/Dave-Vedant/project.toxic-comment-removal-kubeflow-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/Dave-Vedant/project.toxic-comment-removal-kubeflow-pipeline.git"
+  },
+  {
+    "full_name": "albert-cintas-pot/kubeflow-compile-deploy",
+    "html_url": "https://github.com/albert-cintas-pot/kubeflow-compile-deploy",
+    "stars": 0,
+    "clone_url": "https://github.com/albert-cintas-pot/kubeflow-compile-deploy.git"
+  },
+  {
+    "full_name": "stackdemos/kf-overlay-acm",
+    "html_url": "https://github.com/stackdemos/kf-overlay-acm",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/kf-overlay-acm.git"
+  },
+  {
+    "full_name": "Shunpoco/kfp-sample",
+    "html_url": "https://github.com/Shunpoco/kfp-sample",
+    "stars": 0,
+    "clone_url": "https://github.com/Shunpoco/kfp-sample.git"
+  },
+  {
+    "full_name": "bjornrun/ride-preprocess-gps",
+    "html_url": "https://github.com/bjornrun/ride-preprocess-gps",
+    "stars": 0,
+    "clone_url": "https://github.com/bjornrun/ride-preprocess-gps.git"
+  },
+  {
+    "full_name": "kshokn2/kfp_VertexAI",
+    "html_url": "https://github.com/kshokn2/kfp_VertexAI",
+    "stars": 0,
+    "clone_url": "https://github.com/kshokn2/kfp_VertexAI.git"
+  },
+  {
+    "full_name": "niyushabaghayi/telecom_churn_kfp",
+    "html_url": "https://github.com/niyushabaghayi/telecom_churn_kfp",
+    "stars": 0,
+    "clone_url": "https://github.com/niyushabaghayi/telecom_churn_kfp.git"
+  },
+  {
+    "full_name": "kangkannnng/Final-Project",
+    "html_url": "https://github.com/kangkannnng/Final-Project",
+    "stars": 0,
+    "clone_url": "https://github.com/kangkannnng/Final-Project.git"
+  },
+  {
+    "full_name": "MuhamedAyoub/kubeflow-mlops",
+    "html_url": "https://github.com/MuhamedAyoub/kubeflow-mlops",
+    "stars": 0,
+    "clone_url": "https://github.com/MuhamedAyoub/kubeflow-mlops.git"
+  },
+  {
+    "full_name": "bmorphism/kfsummit19",
+    "html_url": "https://github.com/bmorphism/kfsummit19",
+    "stars": 0,
+    "clone_url": "https://github.com/bmorphism/kfsummit19.git"
+  },
+  {
+    "full_name": "Njorda/kubeflow-schedule-pipeline-vertex-cloud-run-job",
+    "html_url": "https://github.com/Njorda/kubeflow-schedule-pipeline-vertex-cloud-run-job",
+    "stars": 0,
+    "clone_url": "https://github.com/Njorda/kubeflow-schedule-pipeline-vertex-cloud-run-job.git"
+  },
+  {
+    "full_name": "anhdan/kfp-first-pipelines",
+    "html_url": "https://github.com/anhdan/kfp-first-pipelines",
+    "stars": 0,
+    "clone_url": "https://github.com/anhdan/kfp-first-pipelines.git"
+  },
+  {
+    "full_name": "Dave-Vedant/ml-pipeline-using-kubeflow-on-AWS-EKS",
+    "html_url": "https://github.com/Dave-Vedant/ml-pipeline-using-kubeflow-on-AWS-EKS",
+    "stars": 0,
+    "clone_url": "https://github.com/Dave-Vedant/ml-pipeline-using-kubeflow-on-AWS-EKS.git"
+  },
+  {
+    "full_name": "mpaul7/end-to-end-ai-pipelines-using-kubeflow",
+    "html_url": "https://github.com/mpaul7/end-to-end-ai-pipelines-using-kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/mpaul7/end-to-end-ai-pipelines-using-kubeflow.git"
+  },
+  {
+    "full_name": "DharmitD/mlops-cicd-pipeline",
+    "html_url": "https://github.com/DharmitD/mlops-cicd-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/DharmitD/mlops-cicd-pipeline.git"
+  },
+  {
+    "full_name": "abzeefly/kubeflow-local-k8s",
+    "html_url": "https://github.com/abzeefly/kubeflow-local-k8s",
+    "stars": 0,
+    "clone_url": "https://github.com/abzeefly/kubeflow-local-k8s.git"
+  },
+  {
+    "full_name": "cloudikeme/kubeflow_regression_decision_pipeline_end_to_end_project",
+    "html_url": "https://github.com/cloudikeme/kubeflow_regression_decision_pipeline_end_to_end_project",
+    "stars": 0,
+    "clone_url": "https://github.com/cloudikeme/kubeflow_regression_decision_pipeline_end_to_end_project.git"
+  },
+  {
+    "full_name": "stackdemos/clorox-kf",
+    "html_url": "https://github.com/stackdemos/clorox-kf",
+    "stars": 0,
+    "clone_url": "https://github.com/stackdemos/clorox-kf.git"
+  },
+  {
+    "full_name": "jx-mlopslabs/Simple-KubeFlow-Pipeline-and-deploying-to-GCP",
+    "html_url": "https://github.com/jx-mlopslabs/Simple-KubeFlow-Pipeline-and-deploying-to-GCP",
+    "stars": 0,
+    "clone_url": "https://github.com/jx-mlopslabs/Simple-KubeFlow-Pipeline-and-deploying-to-GCP.git"
+  },
+  {
+    "full_name": "mhash1m/kubeflow_kfp_workflow",
+    "html_url": "https://github.com/mhash1m/kubeflow_kfp_workflow",
+    "stars": 0,
+    "clone_url": "https://github.com/mhash1m/kubeflow_kfp_workflow.git"
+  },
+  {
+    "full_name": "GourBera/MLOPs---Kubeflow-Pipeline-with-TFX-and-VortexAI",
+    "html_url": "https://github.com/GourBera/MLOPs---Kubeflow-Pipeline-with-TFX-and-VortexAI",
+    "stars": 0,
+    "clone_url": "https://github.com/GourBera/MLOPs---Kubeflow-Pipeline-with-TFX-and-VortexAI.git"
+  },
+  {
+    "full_name": "at-gmbh/learn-kubeflow-modeling",
+    "html_url": "https://github.com/at-gmbh/learn-kubeflow-modeling",
+    "stars": 0,
+    "clone_url": "https://github.com/at-gmbh/learn-kubeflow-modeling.git"
+  },
+  {
+    "full_name": "rujual/telco_churn_pipeline",
+    "html_url": "https://github.com/rujual/telco_churn_pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/rujual/telco_churn_pipeline.git"
+  },
+  {
+    "full_name": "actions-marketplace-validations/f6wbl6_kubeflow-pipelines-deploy-action",
+    "html_url": "https://github.com/actions-marketplace-validations/f6wbl6_kubeflow-pipelines-deploy-action",
+    "stars": 0,
+    "clone_url": "https://github.com/actions-marketplace-validations/f6wbl6_kubeflow-pipelines-deploy-action.git"
+  },
+  {
+    "full_name": "Abdullahi-Ahmed/TFX-KubeFlow-GithubAction-GCP",
+    "html_url": "https://github.com/Abdullahi-Ahmed/TFX-KubeFlow-GithubAction-GCP",
+    "stars": 0,
+    "clone_url": "https://github.com/Abdullahi-Ahmed/TFX-KubeFlow-GithubAction-GCP.git"
+  },
+  {
+    "full_name": "Abeshith/KubeFlow-HandsOn",
+    "html_url": "https://github.com/Abeshith/KubeFlow-HandsOn",
+    "stars": 0,
+    "clone_url": "https://github.com/Abeshith/KubeFlow-HandsOn.git"
+  },
+  {
+    "full_name": "bbrowning/docling-kfp-demo",
+    "html_url": "https://github.com/bbrowning/docling-kfp-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/bbrowning/docling-kfp-demo.git"
+  },
+  {
+    "full_name": "PranavAI2050/Human-Activity-Classification",
+    "html_url": "https://github.com/PranavAI2050/Human-Activity-Classification",
+    "stars": 0,
+    "clone_url": "https://github.com/PranavAI2050/Human-Activity-Classification.git"
+  },
+  {
+    "full_name": "rakesh283343/housing-price-prediction-kfp",
+    "html_url": "https://github.com/rakesh283343/housing-price-prediction-kfp",
+    "stars": 0,
+    "clone_url": "https://github.com/rakesh283343/housing-price-prediction-kfp.git"
+  },
+  {
+    "full_name": "mozilla-ai/kfp-discovery",
+    "html_url": "https://github.com/mozilla-ai/kfp-discovery",
+    "stars": 0,
+    "clone_url": "https://github.com/mozilla-ai/kfp-discovery.git"
+  },
+  {
+    "full_name": "iampatgrady/terraform-vertexai-helloworld",
+    "html_url": "https://github.com/iampatgrady/terraform-vertexai-helloworld",
+    "stars": 0,
+    "clone_url": "https://github.com/iampatgrady/terraform-vertexai-helloworld.git"
+  },
+  {
+    "full_name": "Yeshwanththota/MLOps_project5_mlflow_Dagshub_minikube_kubectl_Kubeflow_pipelines_Dockerhub",
+    "html_url": "https://github.com/Yeshwanththota/MLOps_project5_mlflow_Dagshub_minikube_kubectl_Kubeflow_pipelines_Dockerhub",
+    "stars": 0,
+    "clone_url": "https://github.com/Yeshwanththota/MLOps_project5_mlflow_Dagshub_minikube_kubectl_Kubeflow_pipelines_Dockerhub.git"
+  },
+  {
+    "full_name": "yuanchi2807/kfp-codeflare",
+    "html_url": "https://github.com/yuanchi2807/kfp-codeflare",
+    "stars": 0,
+    "clone_url": "https://github.com/yuanchi2807/kfp-codeflare.git"
+  },
+  {
+    "full_name": "bjornrun/ride-preprocess-modem",
+    "html_url": "https://github.com/bjornrun/ride-preprocess-modem",
+    "stars": 0,
+    "clone_url": "https://github.com/bjornrun/ride-preprocess-modem.git"
+  },
+  {
+    "full_name": "AlexIoannides/kfp-component-lib",
+    "html_url": "https://github.com/AlexIoannides/kfp-component-lib",
+    "stars": 0,
+    "clone_url": "https://github.com/AlexIoannides/kfp-component-lib.git"
+  },
+  {
+    "full_name": "MOLOZISE/MLOps_Formation",
+    "html_url": "https://github.com/MOLOZISE/MLOps_Formation",
+    "stars": 0,
+    "clone_url": "https://github.com/MOLOZISE/MLOps_Formation.git"
+  },
+  {
+    "full_name": "vfcarida/CI-CD-Pipeline-for-machine-learning-with-online-training-in-Kubeflow",
+    "html_url": "https://github.com/vfcarida/CI-CD-Pipeline-for-machine-learning-with-online-training-in-Kubeflow",
+    "stars": 0,
+    "clone_url": "https://github.com/vfcarida/CI-CD-Pipeline-for-machine-learning-with-online-training-in-Kubeflow.git"
+  },
+  {
+    "full_name": "ateevwasalreadytaken/kfp_jupyter_notebook",
+    "html_url": "https://github.com/ateevwasalreadytaken/kfp_jupyter_notebook",
+    "stars": 0,
+    "clone_url": "https://github.com/ateevwasalreadytaken/kfp_jupyter_notebook.git"
+  },
+  {
+    "full_name": "hbelmiro/kfp-test-cache-pipeline",
+    "html_url": "https://github.com/hbelmiro/kfp-test-cache-pipeline",
+    "stars": 0,
+    "clone_url": "https://github.com/hbelmiro/kfp-test-cache-pipeline.git"
+  },
+  {
+    "full_name": "amanknoldus/llm-dolly-v2-3b-fine-tuning-kubeflow-template",
+    "html_url": "https://github.com/amanknoldus/llm-dolly-v2-3b-fine-tuning-kubeflow-template",
+    "stars": 0,
+    "clone_url": "https://github.com/amanknoldus/llm-dolly-v2-3b-fine-tuning-kubeflow-template.git"
+  },
+  {
+    "full_name": "nomnomnonono/ML-Pipeline-of-Paper-Category-Classification",
+    "html_url": "https://github.com/nomnomnonono/ML-Pipeline-of-Paper-Category-Classification",
+    "stars": 0,
+    "clone_url": "https://github.com/nomnomnonono/ML-Pipeline-of-Paper-Category-Classification.git"
+  },
+  {
+    "full_name": "hbelmiro/kfp-importer-minio-demo",
+    "html_url": "https://github.com/hbelmiro/kfp-importer-minio-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/hbelmiro/kfp-importer-minio-demo.git"
+  },
+  {
+    "full_name": "hbelmiro/kfp-print-env-var-demo",
+    "html_url": "https://github.com/hbelmiro/kfp-print-env-var-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/hbelmiro/kfp-print-env-var-demo.git"
+  },
+  {
+    "full_name": "juliaashleyh8/batchpipeline-example",
+    "html_url": "https://github.com/juliaashleyh8/batchpipeline-example",
+    "stars": 0,
+    "clone_url": "https://github.com/juliaashleyh8/batchpipeline-example.git"
+  },
+  {
+    "full_name": "Taring-Community/kfp-k8s-getstarted",
+    "html_url": "https://github.com/Taring-Community/kfp-k8s-getstarted",
+    "stars": 0,
+    "clone_url": "https://github.com/Taring-Community/kfp-k8s-getstarted.git"
+  },
+  {
+    "full_name": "NickTsioutsias/5G_ML_PIPELINE_K8s",
+    "html_url": "https://github.com/NickTsioutsias/5G_ML_PIPELINE_K8s",
+    "stars": 0,
+    "clone_url": "https://github.com/NickTsioutsias/5G_ML_PIPELINE_K8s.git"
+  },
+  {
+    "full_name": "adityaoncloud/SVC_model",
+    "html_url": "https://github.com/adityaoncloud/SVC_model",
+    "stars": 0,
+    "clone_url": "https://github.com/adityaoncloud/SVC_model.git"
+  },
+  {
+    "full_name": "hbelmiro/kfp-minio-artifact-download-demo",
+    "html_url": "https://github.com/hbelmiro/kfp-minio-artifact-download-demo",
+    "stars": 0,
+    "clone_url": "https://github.com/hbelmiro/kfp-minio-artifact-download-demo.git"
+  },
+  {
+    "full_name": "capoolebugchat/KWS-on-K8s",
+    "html_url": "https://github.com/capoolebugchat/KWS-on-K8s",
+    "stars": 0,
+    "clone_url": "https://github.com/capoolebugchat/KWS-on-K8s.git"
+  },
+  {
+    "full_name": "Saoussen-CH/production-ready-MLOps-on-GCP",
+    "html_url": "https://github.com/Saoussen-CH/production-ready-MLOps-on-GCP",
+    "stars": 0,
+    "clone_url": "https://github.com/Saoussen-CH/production-ready-MLOps-on-GCP.git"
+  },
+  {
+    "full_name": "NashTech-Labs/Databricks-Dolly-LLM-Fine-Tuning",
+    "html_url": "https://github.com/NashTech-Labs/Databricks-Dolly-LLM-Fine-Tuning",
+    "stars": 0,
+    "clone_url": "https://github.com/NashTech-Labs/Databricks-Dolly-LLM-Fine-Tuning.git"
+  },
+  {
+    "full_name": "ulises-jimenez07/kube_micro_service_model",
+    "html_url": "https://github.com/ulises-jimenez07/kube_micro_service_model",
+    "stars": 0,
+    "clone_url": "https://github.com/ulises-jimenez07/kube_micro_service_model.git"
+  },
+  {
+    "full_name": "Bhuwan980/hotel_reservation_prediction",
+    "html_url": "https://github.com/Bhuwan980/hotel_reservation_prediction",
+    "stars": 0,
+    "clone_url": "https://github.com/Bhuwan980/hotel_reservation_prediction.git"
+  }
+]
