@@ -1,67 +1,79 @@
-A Python + Jupyter project to generate, collect, and test Kubernetes/ML pipelines (KFP-based).
-Repository structure
+# 🧠 KFP-GEN: Kubeflow Pipeline Generation and Evaluation
+
+A Python + Jupyter project for collecting, generating, and evaluating Kubeflow Pipelines (KFP) using Large Language Models (LLMs). The current setup focuses on testing `Qwen2.5-Coder-1.5B-Instruct` in Google Colab using prompts generated from real-world KFP pipelines. The next step involves evaluating the similarity between the generated pipelines and their reference implementations.
+
+---
+
+## 📁 Repository Structure
 
 kfp-gen/
-├── data_collect/
-│   └── … scripts and notebooks related to data collection workflows
-├── testing-llms/
-│   └── … scripts and notebooks for testing prompts and LLM interactions
-├── .gitignore
-└── README.md  ← this file
+├── data_collect/ # Scripts and notebooks for pipeline data collection
+├── testing-llms/ # Scripts and notebooks for LLM prompt execution and evaluation
+├── .gitignore # Ignore rules for Git
+└── README.md # Project documentation
 
-🔹 data_collect/
 
-Likely contains scripts and Jupyter notebooks to automate or streamline data collection. These may include:
+---
 
-    Connecting to data sources (APIs, databases, filesystems)
+## 🔹 `data_collect/`
 
-    Preprocessing or transforming data
+Contains Python scripts and Jupyter notebooks to automate the process of gathering Kubeflow pipeline examples from GitHub and preparing prompts. Tasks include:
 
-    Organizing collected raw data for pipeline ingestion
+- Connecting to data sources (e.g., GitHub API)
+- Extracting KFP-related YAML/Python files
+- Generating structured prompts from real pipelines
+- Preprocessing and storing references for evaluation
 
-🔹 testing-llms/
+---
 
-Presumably hosts resources for interacting with Large Language Models:
+## 🔹 `testing-llms/`
 
-    Experimenting with prompts and model responses
+Includes scripts and tools for testing and evaluating LLMs such as Qwen2.5:
 
-    Evaluating LLM completions or outputs
+- Running generated prompts through Qwen2.5 using Colab
+- Generating Kubeflow pipelines in Python using KFP v2 DSL
+- Saving generated outputs for evaluation
+- Next phase: measuring similarity between generated and reference code (e.g., BLEU score)
 
-    Integrating LLM steps into Kubeflow pipelines
+---
 
-🔹 .gitignore
+## 🔹 `.gitignore`
 
-Standard ignore file to keep unnecessary files (e.g., .pyc, notebook checkpoints, virtualenv folders, data dumps) out of Git.
-Getting Started
+A standard ignore file to exclude:
 
-    Clone the repository
+- Compiled Python files (`.pyc`)
+- Jupyter notebook checkpoints
+- Environment folders
+- Temporary output files
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Ilyes-Kasdallah/kfp-gen.git
 cd kfp-gen
 
-Install dependencies
-Likely requires:
+2. Install dependencies
 
-    Python (e.g. 3.8+)
+Requirements:
 
+    Python 3.8+
     kfp (Kubeflow Pipelines SDK)
+    transformers, huggingface_hub (for LLMs)
 
-    jupyter (for notebooks)
+3. Explore directories
 
-    Possibly LLM client libraries (OpenAI, Hugging Face, etc.)
-    Suggested:
+    data_collect/: for prompt generation and pipeline scraping
 
-    pip install -r requirements.txt
+    testing-llms/: for interacting with LLMs and evaluating generated code
 
-    Explore directories
+Summary Table
 
-        data_collect/: find datasets and data pipeline code
-
-        testing-llms/: find notebooks for LLM prompt testing
-
-
-📋 Summary table
-Item	Description
-data_collect/	Contains scripts/notebooks to fetch and preprocess data for pipelines
-testing-llms/	Hosts prompt experiments and LLM output tests
-.gitignore	Excludes generated, temporary, and environment files
+| Item            | Description                                                      |
+| --------------- | ---------------------------------------------------------------- |
+| `data_collect/` | Contains scripts/notebooks to fetch and preprocess KFP pipelines |
+| `testing-llms/` | Hosts prompt experiments and LLM output generation/evaluation    |
+| `.gitignore`    | Excludes generated, temporary, and environment files             |
