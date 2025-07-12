@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# 1 load data # image needs to be a compile-time string # 2 train # image needs to be a compile-time string # 3 deploy the trained model to Cloud ML Engine

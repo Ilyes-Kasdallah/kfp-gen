@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Fetches sampled calls from production db and checks for potential compliance breaches (only          for US collections application

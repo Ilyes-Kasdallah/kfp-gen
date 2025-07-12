@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Load the component by calling load_component_from_file or load_component_from_url To load the component, the pipeline author only needs to have access to the component.yaml file. The Kubernetes cluster executing the pipeline needs access to the container image specified in the component. dummy_op = kfp.components.load_component_from_url('http://....../component.yaml') Define a pipeline and create a task from a component:

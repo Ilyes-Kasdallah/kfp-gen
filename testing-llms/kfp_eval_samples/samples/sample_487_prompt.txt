@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Initialize the FlexiPipeline class with the configuration path.                  Args:             config_path (str): Path to the JSON configuration file. # Import the custom processing module # Process implementation # Define the code PVC (Persistent Volume Claim) -------------------------------------------------------------------------------- # Pre-process task # Custom process tasks for each image ID

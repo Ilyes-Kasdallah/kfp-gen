@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Given the outputs from decision_tree and logistic regression components # the results are shown. # Loads the yaml manifest for each component # Run download_data task # Run tasks "decison_tree" and "logistic_regression" given

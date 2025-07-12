@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# roc_auc_train_proba = roc_auc_score(y_sm_train, y_pred_train_proba[:, 1]) # roc_auc_test_proba = roc_auc_score(y_test, y_pred_proba[:, 1]) # Create an argument parser # Parse the command-line arguments

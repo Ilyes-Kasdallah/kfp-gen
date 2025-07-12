@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Extract the best trial name.            Args:     katib_results: The JSON object formatted the hyperparameter set of the best experiment trial result      Returns:     best_trial_name: string which contain the best experiment trial name # resolve kfp_server_api.exceptions.ApiException: (400) NAMESPACE is empty issue # Compile pipeline to generate compressed YAML definition of the pipeline.

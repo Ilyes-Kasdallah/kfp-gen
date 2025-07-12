@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-IMPORT FUNCTIONS  dsl-compile --py imdb_pipeline.py --output imdb_pipeline.yaml https://github.com/kubeflow/pipelines/tree/sdk/release-1.8/samples/core

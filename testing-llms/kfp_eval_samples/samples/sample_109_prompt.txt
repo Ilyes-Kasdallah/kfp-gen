@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Initialize component store Create component factories Define pipeline dsl-compile --py pipeline.py --output pipeline_build.tar.gz

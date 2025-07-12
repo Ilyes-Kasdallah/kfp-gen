@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Extract all contents to the specified directory # ~/tensorflow_datasets/curated_breast_imaging_ddsm/patches/3.0.0

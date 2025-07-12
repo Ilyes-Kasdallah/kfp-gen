@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-client = kfp.Client() client.create_run_from_pipeline_func(boston_pipeline, arguments={})

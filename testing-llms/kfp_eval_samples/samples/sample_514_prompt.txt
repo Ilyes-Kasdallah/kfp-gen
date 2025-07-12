@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-kfp_pipeline/build_pipeline.py ────────── 常量 & 路径 ─────────────────────────────────── 让 Python 找得到 components 包 ────────── 导入已装饰好的组件函数 ─────────────────────── 如需统一镜像，可在这里动态覆写（任选）

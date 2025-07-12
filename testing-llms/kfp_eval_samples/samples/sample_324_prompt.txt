@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-if __name__ == '__main__': # Compile the pipeline kfp.compiler.Compiler().compile(kf_pipeline, __file__ + '.yaml')

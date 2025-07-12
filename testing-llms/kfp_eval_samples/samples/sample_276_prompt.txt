@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Imports inside a component function: # This function demonstrates how to use nested functions inside a # component function: # Passing pipeline parameter and a constant value as operation arguments # Passing a task output reference as operation arguments

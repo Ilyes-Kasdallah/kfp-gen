@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# If operation exists then it will be reused. # If operation does not exist then it will be created and the name will be resource_name below. # volume_name="ridhwan-personal-volume", # Volume Name, do not use as it will cause the volume to not be found # data_source=PipelineParam(name="data_source"), # This way it will create a volume snapshot from param # Components

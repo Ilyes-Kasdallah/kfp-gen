@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Classification Report         | Class | Precision | Recall | F1-Score | Support |          | --- | --- | --- | --- | --- |         | Not Survived | {report['0']['precision']} | {report['0']['recall']} | {report['0']['f1-score']} | {report['0']['support']} |         | Survived | {report['1']['precision']} | {report['1']['recall']} | {report['1']['f1-score']} | {report['1']['support']} | # Create S3 client # Load data # Load model directly from S3 # Prepare features # Split data

@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-### model     | Model       |  # of params |   Type   | # of layers  | # of heads | ffn_dim | hidden_dims |      |--------------|:----:|:-------:|--------:|--------:|--------:|--------------:|     | `KoGPT2` |  125M  |  Decoder |   12     | 12      | 3072    | 768 |      ### sampling method     - greedy sampling     - max out length : 128/1,024     ## Conditional Generation ### model ### sampling method ## Conditional Generation

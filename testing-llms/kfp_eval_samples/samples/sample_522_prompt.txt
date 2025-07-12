@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# $ python addition_pipeline.py # This will upload addition_pipeline.yaml. Check this on kubeflow-pipeline-ui # $ python addition_pipeline.py This will upload addition_pipeline.yaml. Check this on kubeflow-pipeline-ui  # Passes a pipeline parameter and a constant value to the `add_op` factory # function.

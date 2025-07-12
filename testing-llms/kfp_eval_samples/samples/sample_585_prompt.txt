@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-This fixture mocks the Artifact object (and thus any derived     classes i.e Dataset, Model, etc.)     to return the URI as the path.      Unit tests set the URI of artifacts, however, KFP components use Artifact.path to     retrieve paths to files. If a URI doesn't start with gs:// or minio:// or s3://,     the path with be None. This behaviour is avoided by mocking the Artifact._get_path     method.      Args:         mocker: Used to patch the _get_path method in `kfp.dsl.Artifact`.      Returns:         None # mock the _get_path method of Artifact which is used by the property path

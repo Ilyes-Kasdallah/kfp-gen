@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-This pipeline tests the ability to consume outputs from upstream components in a loop context as well as having the inputs resolve when set_display_name is used within the pipeline. # Consume the output from a op in the loop iteration DAG context

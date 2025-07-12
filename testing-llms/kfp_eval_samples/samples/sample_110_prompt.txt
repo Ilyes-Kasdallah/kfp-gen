@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Show metrics summary for all the models # Load YAML files for each component # Set pipeline tasks and pass data to models # Show results of ML models Compile the pipeline so it can be imported into Kubeflow

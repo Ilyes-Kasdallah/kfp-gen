@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Generates a workflow spec yaml file from a Kedro pipeline.      Args:         image: container image name.         pipeline_name: pipeline name to build a workflow spec.         env: Kedro configuration environment name. python build_kubeflow_pipeline.py <project_image> # Configure the container to use AWS credentials.

@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Simple pipeline that chains to invocations of a single component to each other. Does not produce KFP IR through compilation and instead creates a run directly from the pipeline function defined here.

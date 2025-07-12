@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-!/usr/bin/env python3 Ref: https://pytorch-lightning.readthedocs.io/en/stable/notebooks/lightning_examples/cifar10-baseline.html # TODO: Handle directory output # file_outputs={'output': '/opt/model/lightning_logs/'},

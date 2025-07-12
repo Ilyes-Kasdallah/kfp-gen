@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Fetch a model given a model name (display name) and export to GCS.      Args:         model_name (str): display name of the model         location (str): location of the Google Cloud project         project (str): project id of the Google Cloud project         model (Output[Model]): a Vertex AI model         fail_on_model_not_found (bool): if set to True, raise runtime error if             model is not found      Returns:         str: Resource name of the found model. Empty string if model not found.

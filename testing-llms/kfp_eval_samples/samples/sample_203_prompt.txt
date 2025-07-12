@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Load dataset # Normalize dataset # Define the model using keras # IMP this specifies the path inside the Docker container where our model will be saved # Save test data pickle file

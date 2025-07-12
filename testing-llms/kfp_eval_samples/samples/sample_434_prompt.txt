@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Build ContainerOps of Docker images with needed arguments for data/model access and file_output definitions. TODO Fix the FutureWarning regarding ContainerOp # Build a pipeline yaml file to be uploaded to Kubeflow Pipeline UI # TODO implement local run option without manual pipeline creation

@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Get the namespace in which kfp is running # Get the ID of the run.  Make sure it's lower case and starts with a letter for our use # Where to store parameters passed between workflow steps # Set environment values to ensure persistent volumes used to pass parameters are allocated successfully

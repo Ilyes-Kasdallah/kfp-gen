@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Modifier function to apply to a Container Op to simplify volume, volume mount addition and         enable better reuse of volumes, volume claims across container ops.         Usage:             train = train_op(...)             train.apply(mount_pvc('claim-name', 'pipeline', '/mnt/pipeline')) ### inputs to pipeline ### preprocessing step # NOTE: arguments from pipeline not utilized in training script yet ### add resource definitions, pvc mounts etc. ### training step

@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-This is pipeline to monitor whether edd data loading is successful.     $ python edd_checker.py      * create and upload edd_checker.yaml(pipeline) to kubeflow.     * check ede_monitor at kubeflow. # base_image = "{}.dkr.ecr.{}.amazonaws.com/aladin-runtime:anaconda-cpu".format(account, region) # Close trino connection # Close trino connection # Close trino connection # Close trino connection

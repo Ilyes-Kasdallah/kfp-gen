@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-import matplotlib.pyplot as plt # Given the outputs from decision_tree and logistic regression components # the results are shown. # Best Model # Switch Case for best model

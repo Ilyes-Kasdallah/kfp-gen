@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-label 정보 가져오기 단위 테스트용 myparam1 = "parameter1" # packages_to_install=["install_library1==0.0.1", "install_library2==1.0.0"] # project: str, # location: str,

@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Use json.dumps() for correct JSON formatting # check md5 # save file & check md5 # set request header

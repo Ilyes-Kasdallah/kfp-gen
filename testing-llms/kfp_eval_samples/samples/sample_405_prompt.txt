@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-secret = projects/209915815446/secrets/vertex-ai-secret/versions/1

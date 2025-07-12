@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Build the model with Keras API     Export model metrics #load dataset #load model structure #reading best hyperparameters from katib #compile the model - we want to have a binary outcome #fit the model and return the history while training

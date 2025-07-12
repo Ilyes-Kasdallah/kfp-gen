@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-This is kubeflow pipeline built using python sdk. We define a stand-alone python function which is converted to pipeline component.  1. create persistent volume on Kubeflow Volumes UI     name: test-data-volume 2. Execute below command inside kubeflow cluster.     $ python iris_python_pipeline.py This will create iris_python pipeline and upload it. Check this on Kubeflow Pipeline UI. ## TODO os.environ # Fetch iris dataset from trino (federated query) # Convert data to a pandas dataframe # Write iris dataset to csv file # Close trino connection

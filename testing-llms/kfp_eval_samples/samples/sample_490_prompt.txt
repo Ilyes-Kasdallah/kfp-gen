@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# create components from yaml manifest #output_component_file='compare_models.yaml', # Run first task #download_task.execution_options.caching_strategy.max_cache_staleness = "P0D" # create temporal stats from results of the previous task

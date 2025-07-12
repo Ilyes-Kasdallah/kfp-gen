@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Create client with access and secret key. # First, check if the bucket exists # If so, check if the file / object exists that contains the data # Create client with access and secret key # Make the bucket if it does not exist.

@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# model_version = dsl.ContainerOp( #     name='Model Versioning', #     image='quynhtl/today_code1:latest', #     command=['python', 'version_data.py'], #     arguments=['--model-dir', model_train.outputs['model_path'], '--version-dir', '/version']

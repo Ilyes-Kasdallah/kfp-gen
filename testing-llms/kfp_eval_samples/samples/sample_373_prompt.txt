@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-End-to-End Kubeflow Pipeline, from data loading to model serving. TODOs: - add minio_access_key and minio_secret_key as parameter for all components -------------- --- IMPORT --- --------------

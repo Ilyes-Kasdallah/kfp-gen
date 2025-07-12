@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Parse arguments. arguments are parsed as a global variable so they can be used in the pipeline decorator below [START load_kfp_components] load the kfp components from their yaml files [END load_kfp_components]

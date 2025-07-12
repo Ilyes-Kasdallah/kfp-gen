@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-This component loads our main training container image and runs the code to train the models # TODO: there should be a better way to do this # write experiments summary as a markdown table # We replace the underscore so that Mardown is rendered properly # Create client with access and secret key # read the ranks and hparams info df from MinIO

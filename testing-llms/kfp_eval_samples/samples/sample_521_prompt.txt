@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# $ python add_cpu.py # This will upload add_cpu.yaml. Check this on kubeflow-pipeline-ui # $ python add_cpu.py This will upload add_cpu.yaml. Check this on kubeflow-pipeline-ui  # toleration1 = V1Toleration( #     effect='NoSchedule',

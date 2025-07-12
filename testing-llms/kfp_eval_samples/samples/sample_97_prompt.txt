@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-In the function signature, `InputPath("Fastq")` is used to indicate a path to some     fastq, and at runtime the actual path of the data gets passed. The `Fastq` argument     is typechecked by the DSL compiler to make sure that types of data being passed from     component to component match up.      Because the trimmed fastq output path is controlled by Kubeflow, it does not have a     .gz extension, and as such Trimmomatic thinks it's OK to not gzip the output file     if we just pass that path directly. Instead, we pass a dummy filename to Trimmomatic     and then just write the contents of that to the output path.

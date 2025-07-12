@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-!/usr/bin/env python3 This sample demonstrates continuous training using a train-eval-check recursive loop. The main pipeline trains the initial model and then gradually trains the model some more until the model evaluation metrics are good enough. This recursive sub-pipeline trains a model, evaluates it, calculates the metrics and checks them.

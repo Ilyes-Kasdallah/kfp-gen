@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Generate a random number between minimum and maximum (inclusive). # implement pip as a subprocess: #output = train_evaluation_op(-1, out1.outputs['TRAIN_INPUT_JSON'], out1.outputs['TRAIN_OUTPUT_JSON']) Submit the pipeline for execution: kfp.Client(host=kfp_endpoint).create_run_from_pipeline_func(flipcoin_pipeline, arguments={}) # Compiling the pipeline

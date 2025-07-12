@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-from typing import Any, NamedTuple import kfp.dsl as dsl from collections import namedtuple from kfp.dsl import Input, Output, Dataset, component from consts import MLFLOW_IMAGE # Imports # Body

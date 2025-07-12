@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Created on Tue Sep  3 14:58:04 2019  @author: vispande2 Step 1: create training dataset using Apache Beam on Cloud Dataflow # image needs to be a compile-time string #,file_outputs={'bucket': '/output.txt'} Step 2: Train the model and find best set of hyperparameter. # image needs to be a compile-time string

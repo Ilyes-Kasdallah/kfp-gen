@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-from google.cloud import storage  #type:ignore from google.oauth2 import service_account  #type:ignore

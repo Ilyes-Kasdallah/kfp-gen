@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Define the data loading function # Load the Boston housing dataset # Split the data into training and test sets # Save to output paths Define the model training function

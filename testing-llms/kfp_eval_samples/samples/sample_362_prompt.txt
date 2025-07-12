@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Custom Python image has 'google' package installed, but not numpy.     Further, GCP credentials are mounted into this image. from google.cloud import storage  #type:ignore from google.oauth2 import service_account  #type:ignore @dsl.pipeline #pipe = gcs_obj_pipeline(bucket_name="anton-test-bucket123")

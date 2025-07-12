@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-for running python contenerized_examples/02_pipeline_custom_component2/pipeline.py Load components Declare pipeline # task_print = print_meta( #         x_train=task_split_data.outputs['x_train_out'], #         x_test=task_split_data.outputs['x_test_out'])

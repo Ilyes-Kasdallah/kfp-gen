@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# Loads the yaml manifest for each component # pipeline steps # kfp.Client().create_run_from_pipeline_func(basic_pipeline, arguments={})

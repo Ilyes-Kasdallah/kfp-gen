@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-# gcc_aip.EndpointCreateOp.component_spec.implementation.container.image = "gcr.io/ml-pipeline/google-cloud-pipeline-components:0.1.7" #gcc_aip.ModelDeployOp.component_spec.implementation.container.image = "gcr.io/ml-pipeline/google-cloud-pipeline-components:0.1.7" #project=project_id, #accelerator_type='NVIDIA_TESLA_P100',  # CHANGE THIS as necessary #accelerator_count=1

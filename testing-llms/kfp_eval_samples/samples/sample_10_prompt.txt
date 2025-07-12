@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-This sample pipeline is meant to cover the following cases during artifact resolution: 1. ParallelFor task consuming input from another task within the same loop. 2. A nested ParallelFor task consuming input from another ParallelFor Iterator. 3. Resolving input with dsl.Collected inside another ParallelFor loop. 4. Resolving input that comes from a subdag using dsl.Collected inside of a ParallelFor loop.

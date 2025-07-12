@@ -1,3 +1,0 @@
-You are an MLOps engineer. Write a Kubeflow pipeline based on the following description and code logic:
-
-Read Spark Operator job manifest file and return the corresponding dictionary and     add some randomness in the job name     :return: dictionary defining the spark job # Read manifest file # Add epoch time in the job name # Remove cache # Load spark job manifest # Load the kubernetes apply component
