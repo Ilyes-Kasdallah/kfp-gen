@@ -1,0 +1,182 @@
+[
+  {
+    "key": "03sarathkubeflowpipelinesmlopspipeline",
+    "generated": "kfp_eval_samples/03sarath__Kubeflow-pipelines-mlops__pipeline.py",
+    "reference": "saved_kfp_files/03sarath_Kubeflow-pipelines-mlops_pipeline.py"
+  },
+  {
+    "key": "omkarakayakubeflowrecommenderpipeline",
+    "generated": "kfp_eval_samples/omkarakaya__kubeflow-recommender__pipeline.py",
+    "reference": "saved_kfp_files/omkarakaya_kubeflow-recommender_pipeline.py"
+  },
+  {
+    "key": "sbakiumlkfpipelinetokenizepipeline",
+    "generated": "kfp_eval_samples/sbakiu__ml-kf-pipeline__tokenize_pipeline.py",
+    "reference": "saved_kfp_files/sbakiu_ml-kf-pipeline_tokenize_pipeline.py"
+  },
+  {
+    "key": "ajinkya933kubeflowmnistcompletetrain",
+    "generated": "kfp_eval_samples/ajinkya933__Kubeflow__mnist_complete_train.py",
+    "reference": "saved_kfp_files/ajinkya933_Kubeflow_mnist_complete_train.py"
+  },
+  {
+    "key": "mastercardmastercardlabsmlpipelinesantandertrnxclassification",
+    "generated": "kfp_eval_samples/Mastercard__mastercard-labs-ml-pipeline__santander-trnx-classification.py",
+    "reference": "saved_kfp_files/Mastercard_mastercard-labs-ml-pipeline_santander-trnx-classification.py"
+  },
+  {
+    "key": "s102401002kubeflowpipelinekubeflowpipelineparquet",
+    "generated": "kfp_eval_samples/s102401002__kubeflowPipeline__kubeflowPipeline_parquet.py",
+    "reference": "saved_kfp_files/s102401002_kubeflowPipeline_kubeflowPipeline_parquet.py"
+  },
+  {
+    "key": "aiffelsocarcvkubeflowpipelinepipeline",
+    "generated": "kfp_eval_samples/aiffel-socar-cv__kubeflow-pipeline__pipeline.py",
+    "reference": "saved_kfp_files/aiffel-socar-cv_kubeflow-pipeline_pipeline.py"
+  },
+  {
+    "key": "alexander6463kubeflowmnistpipelinedev",
+    "generated": "kfp_eval_samples/Alexander6463__Kubeflow_MNIST__pipeline_dev.py",
+    "reference": "saved_kfp_files/Alexander6463_Kubeflow_MNIST_pipeline_dev.py"
+  },
+  {
+    "key": "shawar8sfcrimepredictionkubeflowservingfns",
+    "generated": "kfp_eval_samples/shawar8__sfcrime-prediction-kubeflow__serving_fns.py",
+    "reference": "saved_kfp_files/shawar8_sfcrime-prediction-kubeflow_serving_fns.py"
+  },
+  {
+    "key": "davidnetbreastcancerdetectionnnxpipelinepipeline",
+    "generated": "kfp_eval_samples/Davidnet__breast-cancer-detection-nnx-pipeline__pipeline.py",
+    "reference": "saved_kfp_files/Davidnet_breast-cancer-detection-nnx-pipeline_pipeline.py"
+  },
+  {
+    "key": "dermatologistkedromultimodalbuildkubeflowpipeline",
+    "generated": "kfp_eval_samples/dermatologist__kedro-multimodal__build_kubeflow_pipeline.py",
+    "reference": "saved_kfp_files/dermatologist_kedro-multimodal_build_kubeflow_pipeline.py"
+  },
+  {
+    "key": "ajinkya933kubeflowmnistrestapi",
+    "generated": "kfp_eval_samples/ajinkya933__Kubeflow__mnist_REST_API.py",
+    "reference": "saved_kfp_files/ajinkya933_Kubeflow_mnist_REST_API.py"
+  },
+  {
+    "key": "raviranjan0309kubeflowfairingpipelinepipeline",
+    "generated": "kfp_eval_samples/raviranjan0309__kubeflow-fairing-pipeline__pipeline.py",
+    "reference": "saved_kfp_files/raviranjan0309_kubeflow-fairing-pipeline_pipeline.py"
+  },
+  {
+    "key": "kfouskubeflowpipelinemlflowpipeline",
+    "generated": "kfp_eval_samples/kfous__kubeflow-pipeline__mlflow_pipeline.py",
+    "reference": "saved_kfp_files/kfous_kubeflow-pipeline_mlflow_pipeline.py"
+  },
+  {
+    "key": "s102401002kubeflowpipelinekubeflowpipelinexgboost",
+    "generated": "kfp_eval_samples/s102401002__kubeflowPipeline__kubeflowPipeline_xgboost.py",
+    "reference": "saved_kfp_files/s102401002_kubeflowPipeline_kubeflowPipeline_xgboost.py"
+  },
+  {
+    "key": "fernandolpzkubeflowpipelinespipeline",
+    "generated": "kfp_eval_samples/FernandoLpz__Kubeflow_Pipelines__pipeline.py",
+    "reference": "saved_kfp_files/FernandoLpz_Kubeflow_Pipelines_pipeline.py"
+  },
+  {
+    "key": "iquantckubeflowpipelinekubeflowpipeline",
+    "generated": "kfp_eval_samples/iQuantC__Kubeflow-pipeline__kubeflow_pipeline.py",
+    "reference": "saved_kfp_files/iQuantC_Kubeflow-pipeline_kubeflow_pipeline.py"
+  },
+  {
+    "key": "shawar8sfcrimepredictionkubeflowtrainingfunctions",
+    "generated": "kfp_eval_samples/shawar8__sfcrime-prediction-kubeflow__training_functions.py",
+    "reference": "saved_kfp_files/shawar8_sfcrime-prediction-kubeflow_training_functions.py"
+  },
+  {
+    "key": "shawar8sfcrimepredictionkubeflowdataingestfns",
+    "generated": "kfp_eval_samples/shawar8__sfcrime-prediction-kubeflow__data_ingest_fns.py",
+    "reference": "saved_kfp_files/shawar8_sfcrime-prediction-kubeflow_data_ingest_fns.py"
+  },
+  {
+    "key": "sbakiukubeflowsparkkubeflowpipeline",
+    "generated": "kfp_eval_samples/sbakiu__kubeflow-spark__kubeflow_pipeline.py",
+    "reference": "saved_kfp_files/sbakiu_kubeflow-spark_kubeflow_pipeline.py"
+  },
+  {
+    "key": "s102401002kubeflowpipelinekubeflowpipeline0720",
+    "generated": "kfp_eval_samples/s102401002__kubeflowPipeline__kubeflowPipeline0720.py",
+    "reference": "saved_kfp_files/s102401002_kubeflowPipeline_kubeflowPipeline0720.py"
+  },
+  {
+    "key": "hermesribeirokubeflowpytorchpipeline",
+    "generated": "kfp_eval_samples/hermesribeiro__kubeflow_pytorch__pipeline.py",
+    "reference": "saved_kfp_files/hermesribeiro_kubeflow_pytorch_pipeline.py"
+  },
+  {
+    "key": "lauramorillokubeflowexampletaxionprem",
+    "generated": "kfp_eval_samples/lauramorillo__kubeflow-example__taxi-on-prem.py",
+    "reference": "saved_kfp_files/lauramorillo_kubeflow-example_taxi-on-prem.py"
+  },
+  {
+    "key": "iivsbiitaxiclassificationkubeflowpipelineminiotaxipipeline",
+    "generated": "kfp_eval_samples/II-VSB-II__TaxiClassificationKubeflowPipelineMinio__Taxi-Pipeline.py",
+    "reference": "saved_kfp_files/II-VSB-II_TaxiClassificationKubeflowPipelineMinio_Taxi-Pipeline.py"
+  },
+  {
+    "key": "pragadeeshrajukubeflowsamplepipelinepipeline",
+    "generated": "kfp_eval_samples/pragadeeshraju__kubeflow-sample-pipeline__pipeline.py",
+    "reference": "saved_kfp_files/pragadeeshraju_kubeflow-sample-pipeline_pipeline.py"
+  },
+  {
+    "key": "butuzovkubeflowpiplinepytorchtacatronpipeline",
+    "generated": "kfp_eval_samples/butuzov__kubeflow-pipline-pytorch-tacatron__pipeline.py",
+    "reference": "saved_kfp_files/butuzov_kubeflow-pipline-pytorch-tacatron_pipeline.py"
+  },
+  {
+    "key": "s102401002kubeflowpipelinekubeflowpipeline0722",
+    "generated": "kfp_eval_samples/s102401002__kubeflowPipeline__kubeflowPipeline0722.py",
+    "reference": "saved_kfp_files/s102401002_kubeflowPipeline_kubeflowPipeline0722.py"
+  },
+  {
+    "key": "mastercardmastercardlabsmlpipelinesantandertrnxclassificationrelease",
+    "generated": "kfp_eval_samples/Mastercard__mastercard-labs-ml-pipeline__santander-trnx-classification_release.py",
+    "reference": "saved_kfp_files/Mastercard_mastercard-labs-ml-pipeline_santander-trnx-classification_release.py"
+  },
+  {
+    "key": "arianfotouhikubeflowpipelinespamdetectorscript",
+    "generated": "kfp_eval_samples/ArianFotouhi__kubeflowPipelineSpamDetector__script.py",
+    "reference": "saved_kfp_files/ArianFotouhi_kubeflowPipelineSpamDetector_script.py"
+  },
+  {
+    "key": "pragadeeshrajukubeflowsamplepipelinepipeline2",
+    "generated": "kfp_eval_samples/pragadeeshraju__kubeflow-sample-pipeline__pipeline2.py",
+    "reference": "saved_kfp_files/pragadeeshraju_kubeflow-sample-pipeline_pipeline2.py"
+  },
+  {
+    "key": "sanghunmoonpytorchclassifierpipelinepipeline",
+    "generated": "kfp_eval_samples/sanghunmoon__pytorch_classifier_pipeline__pipeline.py",
+    "reference": "saved_kfp_files/sanghunmoon_pytorch_classifier_pipeline_pipeline.py"
+  },
+  {
+    "key": "ajinkya933kubeflowmnistrestapitemp",
+    "generated": "kfp_eval_samples/ajinkya933__Kubeflow__mnist_REST_API_temp.py",
+    "reference": "saved_kfp_files/ajinkya933_Kubeflow_mnist_REST_API_temp.py"
+  },
+  {
+    "key": "s102401002kubeflowpipeline2kubeflowpipelinexgboost",
+    "generated": "kfp_eval_samples/s102401002__kubeflowPipeline2__kubeflowPipeline_xgboost.py",
+    "reference": "saved_kfp_files/s102401002_kubeflowPipeline2_kubeflowPipeline_xgboost.py"
+  },
+  {
+    "key": "anupr567kubeflowpipelinekfppipeline",
+    "generated": "kfp_eval_samples/anupr567__kubeflow_pipeline__kfp_pipeline.py",
+    "reference": "saved_kfp_files/anupr567_kubeflow_pipeline_kfp_pipeline.py"
+  },
+  {
+    "key": "shawar8sfcrimepredictionkubeflowmonitoringfns",
+    "generated": "kfp_eval_samples/shawar8__sfcrime-prediction-kubeflow__monitoring_fns.py",
+    "reference": "saved_kfp_files/shawar8_sfcrime-prediction-kubeflow_monitoring_fns.py"
+  },
+  {
+    "key": "hiruna72minikfexamplepipelinesmallpipeline",
+    "generated": "kfp_eval_samples/hiruna72__miniKF_example_pipeline__small_pipeline.py",
+    "reference": "saved_kfp_files/hiruna72_miniKF_example_pipeline_small_pipeline.py"
+  }
+]
