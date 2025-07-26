@@ -1,0 +1,209 @@
+File,Status
+kubeflow__pipelines__collected_parameters.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+ferneutron__mlops__register.py,❌ NameError: name 'dsl' is not defined
+s102401002__kubeflowPipeline2__kubeflowPipeline_xgboost.py,❌ TypeError: Missing type annotation for argument: url1
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__fail_test.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+kubeflow__pipelines__collected_artifacts.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+9rince__kfp__parameter_with_format_test.py,❌ NameError: name 'dsl' is not defined
+dvdbisong__kubeflow-for-poets__crypto_pipeline.py,❌ ImportError: cannot import name 'bigquery' from 'google.cloud' (unknown location)
+levitomer__kubeflow-pipeline-demo__pipeline.py,❌ ValueError: No pipeline function found.
+stackdemos__joe-kubeflow-test__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+generic__generic_pipeline.py,❌ TypeError: 'TypeVar' object is not callable
+Ark-kun__pipeline_components__train_until_good.py,❌ ModuleNotFoundError: No module named 'ark_kun'
+stackdemos__kfappx__component.py,❌ NameError: name 'dsl' is not defined
+e2fyi__kfx___transformers.py,❌ TypeError: Missing type annotation for argument: container_op
+jonrossclaytor__kubeflow-mlb__baseball-pipeline-single.py,❌ ImportError: cannot import name 'gcp' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+fybrik__kfp-components__pipeline-tekton.py,❌ ImportError: cannot import name 'get_endpoint' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+jonrossclaytor__kubeflow-mlb__baseball-pipeline-branch.py,❌ ModuleNotFoundError: No module named 'baseball_pipeline_branch'
+kubeflow__pipelines__lightweight_python_functions_v2_pipeline.py,❌ ImportError: cannot import name 'Input' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+shashnavad__wine-quality-mlops__wine_quality_pipeline-checkpoint.py,❌ AttributeError: fit
+StatCan__aaw-kubeflow-mlops__default.py,❌ AttributeError: module 'kfp.components' has no attribute 'Start'
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__fail.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+redhat-ai-services__kubeflow-pipelines-examples__10_mount_pvc_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+e2fyi__kfx___artifact_location.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__fail_parameter_value_missing.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+s102401002__kubeflowPipeline0722__stroke_prediction.py,❌ TypeError: Missing type annotation for argument: data
+s102401002__kubeflowPipeline__kubeflowPipeline0722.py,❌ NameError: name 'dsl' is not defined
+pavan-kumar-99__ml-ops__dependency-pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+kubeflow__pipelines__pipeline_with_env.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+glukicov__llm_pipelines_demo__demo.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__ml-kbf__component.py,❌ NameError: name 'dsl' is not defined
+NusretOzates__autonlp-classification-kubeflow__pipeline.py,❌ ModuleNotFoundError: No module named 'datasets'
+ajinkya933__Kubeflow__mnist_REST_API.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+paul-sud__demo-pipeline__toy.py,❌ NameError: name 'dsl' is not defined
+rakesh283343__kubeflow-pipelines-clv__helper_components.py,❌ ImportError: cannot import name 'load_data' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+9rince__kfp__after_test.py,❌ AttributeError: module 'kfp.components' has no attribute 'task'
+kubeflow__pipelines__pipeline_with_input_status_state.py,❌ ImportError: cannot import name 'Pipeline' from 'kfp.dsl' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/dsl/__init__.py)
+rakesh283343__kubeflow-sample-pipelines__exit_handler.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+AnsealArt__MLOps-Kubeflow__pipeline.py,❌ NameError: name 'dsl' is not defined
+hermesribeiro__kubeflow_pytorch__pipeline.py,❌ ImportError: cannot import name 'train_model' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+9rince__kfp__lightweight_python_functions_v2_pipeline.py,❌ ImportError: cannot import name 'Input' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+getindata__kedro-kubeflow__pod_per_node_pipeline_generator.py,❌ NameError: name 'dsl' is not defined
+Alexander6463__Kubeflow_MNIST__pipeline_dev.py,❌ NameError: name 'dsl' is not defined
+speg03__kfp-toolbox__test_pipeline_parser.py,❌ NameError: name 'dsl' is not defined
+aiffel-socar-cv__kubeflow-pipeline__retrain_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+e2fyi__kfx___artifact_location_test.py,❌ RuntimeError: Local environment not initialized. Please run 'kfp.local.init()' before executing tasks locally.
+tonouchi510__kfp-project__head-pose-dataset-pipeline.py,❌ NameError: name 'dsl' is not defined
+redhat-ai-services__kubeflow-pipelines-examples__06_visualization_pipeline.py,❌ NameError: name 'dsl' is not defined
+kubeflow__pipelines__pipeline_container_no_input.py,❌ NameError: name 'dsl' is not defined
+sanghunmoon__pytorch_classifier_pipeline__pipeline.py,❌ ImportError: cannot import name 'ContainerOp' from 'kfp.dsl' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/dsl/__init__.py)
+ferneutron__mlops__utils.py,"❌ TypeError: Artifacts must have both a schema_title and a schema_version, separated by `@`. Got: RandomForestClassifier"
+baebae-dev__kubeflow-pipelines__pipeline.py,❌ ImportError: `load_boston` has been removed from scikit-learn since version 1.2.
+pavan-kumar-99__ml-ops__echo-sh.py,❌ AttributeError: module 'kfp.components' has no attribute 'Component'
+ajinkya933__Kubeflow__mnist_REST_API_temp.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+sbakiu__ml-kf-pipeline__tokenize_pipeline.py,❌ ModuleNotFoundError: No module named 'src'
+pavan-kumar-99__ml-ops__getDataFromRawUri.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+akranga__machine-learning1__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+redhat-ai-services__kubeflow-pipelines-examples__02_submitted_pipeline_via_route.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+kubeflow__pipelines__metrics_visualization_v2.py,❌ TypeError: Missing type annotation for argument: data
+rakesh283343__kubeflow-pipelines-clv__batch_predict_pipeline.py,❌ ImportError: cannot import name 'bigquery' from 'google.cloud' (unknown location)
+tuhinaprasad28__Machine-Learning-Pipeline-using-Kubeflow__pipeline.py,❌ NameError: name 'iris' is not defined
+tonouchi510__kfp-project__simple-training-pipeline.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+stackdemos__jjtest-ml__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+kubeflow__pipelines__placeholder_concat.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+pavan-kumar-99__ml-ops__train-plot.py,❌ ImportError: cannot import name 'train_test_op' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__after.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+aiffel-socar-cv__kubeflow-pipeline__pipeline.py,❌ TypeError: component() got an unexpected keyword argument 'image'
+shashnavad__wine-quality-mlops__wine_quality_pipeline.py,❌ ImportError: cannot import name 'TextIO' from 'kfp.dsl' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/dsl/__init__.py)
+9rince__kfp__legacy_exit_handler_test.py,❌ TypeError: Missing type annotation for argument: url
+ksalama__kubeflow-examples__workflow.py,❌ ImportError: cannot import name 'workflow' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+kubeflow__pipelines__pipeline_with_placeholders.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__lightweight_python_functions_v2_pipeline.py,❌ ImportError: cannot import name 'Input' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+Ark-kun__pipeline_components__recursive_training.py,❌ ImportError: cannot import name 'PipelineArgument' from 'kfp.dsl' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/dsl/__init__.py)
+kubeflow__pipelines__pipeline_with_importer.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+rakesh283343__kubeflow-pipelines-clv__train_pipeline.py,❌ ImportError: cannot import name 'load_sales_transactions' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+rakesh283343__kubeflow-sample-pipelines__condition.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__metrics_visualization_v2.py,❌ NameError: name 'dsl' is not defined
+speg03__kfp-toolbox__test_cli.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__parameter_with_format_test.py,"❌ TypeError: Components must be instantiated using keyword arguments. Positional parameters are not allowed (found 1 such parameters for component ""parameter-with-format-test"")."
+03sarath__Kubeflow-pipelines-mlops__pipeline.py,❌ TypeError: 'PipelineTask' object is not subscriptable
+shawar8__sfcrime-prediction-kubeflow__training_functions.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+9rince__kfp__fail_parameter_value_missing.py,❌ TypeError: Missing type annotation for argument: parameter
+mengdong__kubeflow-pipeline-nvidia-example__end2end_serve.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__legacy_data_passing.py,❌ TypeError: 'PipelineTask' object is not callable
+shawar8__sfcrime-prediction-kubeflow__serving_fns.py,❌ ModuleNotFoundError: No module named 'sodapy'
+kubeflow__pipelines__placeholder_if_v2.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+s102401002__kubeflowPipeline0722__HeartDisease_prediction.py,❌ TypeError: Missing type annotation for argument: url
+iQuantC__Kubeflow-pipeline__kubeflow_pipeline.py,❌ NameError: name 'dsl' is not defined
+omerbsezer__Fast-Kubeflow__pipeline.py,❌ TypeError: Missing type annotation for argument: input_data
+Mastercard__mastercard-labs-ml-pipeline__santander-trnx-classification_release.py,❌ NameError: name 'dsl' is not defined
+getindata__kedro-kubeflow__test_one_pod_pipeline_generator.py,❌ InconsistentTypeException: Incompatible argument passed to the input 'param1' of component 'transform-data': Argument type 'NUMBER_INTEGER' is incompatible with the input type 'NUMBER_DOUBLE'
+akranga__anton-ml1__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+redhat-ai-services__kubeflow-pipelines-examples__09_secrets_cm_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__cache_v2_compatible_test.py,❌ ImportError: cannot import name 'cache_v2_compatible_test' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+pragadeeshraju__kubeflow-sample-pipeline__pipeline2.py,"❌ TypeError: Components must be instantiated using keyword arguments. Positional parameters are not allowed (found 1 such parameters for component ""deploy-kserve-model"")."
+muhammadyaseen__kubeflow-on-linode__minio_census_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__ghsumm2__component.py,❌ NameError: name 'dsl' is not defined
+redhat-ai-services__kubeflow-pipelines-examples__08_additional_packages_pipeline.py,❌ NameError: name 'dsl' is not defined
+jonrossclaytor__kubeflow-mlb__baseball-pipeline-enhance.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__lightweight_python_functions_v2_with_outputs.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+s102401002__kubeflowPipeline__kubeflowPipeline0720.py,❌ NameError: name 'dsl' is not defined
+redhat-ai-services__kubeflow-pipelines-examples__11_iris_training_pipeline.py,❌ TypeError: Missing type annotation for argument: data
+raviranjan0309__kubeflow-fairing-pipeline__pipeline.py,❌ TypeError: 'lightgbm_training' is not a callable object
+kubeflow__pipelines__parallel_consume_upstream.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+Anvil-Late__Kubeflow_advanced_pipeline__pipeline.py,❌ TypeError: Missing type annotation for argument: data
+hiruna72__miniKF_example_pipeline__small_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+ciandt-d1__chicago-taxi-forecast__build_pipeline.py,❌ ImportError: cannot import name 'bigquery' from 'google.cloud' (unknown location)
+lynnmatrix__kfp-local__local_client_test.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+speg03__kfp-toolbox__test_decorators.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+shawar8__sfcrime-prediction-kubeflow__monitoring_fns.py,❌ ImportError: cannot import name 'bigquery' from 'google.cloud' (unknown location)
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__fail_parameter_value_missing_test.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+tonouchi510__kfp-project__optuna-pipeline.py,❌ NameError: name 'dsl' is not defined
+ferneutron__mlops__models.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__metrics_visualization_v1.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+Mastercard__mastercard-labs-ml-pipeline__santander-trnx-classification.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+II-VSB-II__TaxiClassificationKubeflowPipelineMinio__Taxi-Pipeline.py,❌ AttributeError: 'PipelineTask' object has no attribute 'map'
+tonouchi510__kfp-project__hello-world-pipeline.py,❌ AttributeError: module 'kfp.components' has no attribute 'Component'
+kubeflow__pipelines__parallel_after_dependency.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__specs-kf5__component.py,"❌ TypeError: Components must be instantiated using keyword arguments. Positional parameters are not allowed (found 2 such parameters for component ""download-artifact"")."
+Ark-kun__kfp_sdk_components___python_op.py,❌ TypeError: Missing type annotation for argument: x
+lauramorillo__kubeflow-example__taxi-on-prem.py,❌ TypeError: Missing type annotation for argument: inference_data
+google__vertex-pipelines-boilerplate__sample_pipeline.py,❌ AttributeError: module 'kfp.components' has no attribute 'load_component'
+e2fyi__kfx___transformers_test.py,❌ ModuleNotFoundError: No module named 'kfp.dsl._transformers'
+s102401002__kubeflowPipeline0722__hypertension_prediction.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__legacy_exit_handler_test.py,"❌ TypeError: Components must be instantiated using keyword arguments. Positional parameters are not allowed (found 1 such parameters for component ""download-and-print"")."
+kubeflow__pipelines__snowflake_unload_data.py,❌ ModuleNotFoundError: No module named 'snowflake'
+9rince__kfp__metrics_visualization_v1.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+speg03__kfp-toolbox__test_pipelines.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+ferneutron__mlops__evaluation.py,❌ ImportError: cannot import name 'create_kfp_component' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+hiruna72__miniKF_example_pipeline__norok_reusable_compo_pipeline.py,❌ TypeError: Missing type annotation for argument: input_1_uri
+s102401002__kubeflowPipeline0722__diabetes_prediction.py,❌ AttributeError: 'function' object has no attribute 'load_data'
+kubeflow__pipelines__lightweight_python_functions_v2_with_outputs.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__kcdemo__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+kubeflow__pipelines__after.py,❌ NameError: name 'dsl' is not defined
+getindata__kedro-kubeflow__test_kfpclient.py,❌ AttributeError: module 'kfp.components' has no attribute 'Client'
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__lightweight_python_functions_v2_with_outputs_test.py,"❌ ValueError: Got unknown pipeline output, <kfp.dsl.pipeline_task.PipelineTask object at 0x725ecedf4a00>, of type <class 'kfp.dsl.pipeline_task.PipelineTask'>."
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__fail_v2.py,❌ NameError: name 'dsl' is not defined
+kubeflow__pipelines__hello_world.py,❌ TypeError: Missing type annotation for argument: text
+jhammarstedt__MLOps-Kubeflow_in_GCP__main.py,❌ NameError: name 'dsl' is not defined
+9rince__kfp__lightweight_python_functions_v2_with_outputs.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__secrets-tetst-01__component.py,❌ NameError: name 'dsl' is not defined
+9rince__kfp__fail.py,❌ AttributeError: module 'kfp.components' has no attribute 'function'
+fybrik__kfp-components__pipeline-argo.py,❌ ImportError: cannot import name 'get_data_endpoints' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+ajinkya933__Kubeflow__mnist_complete_train.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+9rince__kfp__metrics_visualization_v2.py,❌ NameError: name 'dsl' is not defined
+ArianFotouhi__kubeflowPipelineSpamDetector__script.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__after_test.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+ZoieD__kfp-resnet__pipeline.py,❌ ModuleNotFoundError: No module named 'tensorflow'
+s102401002__kubeflowPipeline0722__kubeflow_NAS.py,❌ TypeError: Missing type annotation for argument: nas_mount_path
+mengdong__kubeflow-pipeline-nvidia-example__JoC_end2end_serve.py,"❌ TypeError: Components must be instantiated using keyword arguments. Positional parameters are not allowed (found 1 such parameters for component ""download-and-preprocess"")."
+FernandoLpz__Kubeflow_Pipelines__pipeline.py,❌ NameError: name 'dsl' is not defined
+Ark-kun__pipeline_components__continue_training_from_prod.py,❌ ImportError: cannot import name 'Input' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+muhammadyaseen__kubeflow-on-linode__train_eval_pipeline.py,❌ TypeError: Missing type annotation for argument: data
+Davidnet__breast-cancer-detection-nnx-pipeline__pipeline.py,❌ NameError: name 'dsl' is not defined
+redhat-ai-services__kubeflow-pipelines-examples__00_compiled_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+riiid__krsh__pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+s102401002__kubeflowPipeline0722__kubeflowPipeline_xgboost.py,❌ ModuleNotFoundError: No module named 'xgboost'
+redhat-ai-services__kubeflow-pipelines-examples__07_container_components_pipeline.py,❌ TypeError: Missing type annotation for argument: a
+9rince__kfp__legacy_data_passing.py,❌ TypeError: Missing type annotation for argument: data
+tonouchi510__kfp-project__head-pose-pipeline.py,❌ ImportError: cannot import name 'Input' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+stackdemos__kfp11__component.py,❌ NameError: name 'dsl' is not defined
+muhammadyaseen__kubeflow-on-linode__md_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+redhat-ai-services__kubeflow-pipelines-examples__03_outputs_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+pharmbio__kubeflow-pipelines__pipeline.py,❌ ModuleNotFoundError: No module named 'pharmbio'
+rakesh283343__kubeflow-sample-pipelines__execution_order.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+muhammadyaseen__kubeflow-on-linode__cleaning_and_prep_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+s102401002__kubeflowPipeline__kubeflowPipeline_xgboost.py,❌ ModuleNotFoundError: No module named 'xgboost'
+s102401002__kubeflowPipeline0722__kubeflowPipeline0722.py,❌ TypeError: Missing type annotation for argument: url1
+9rince__kfp__after.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+kubeflow__pipelines__fail_v2.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+9rince__kfp__placeholder_concat.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+ferneutron__mlops__data.py,❌ ImportError: cannot import name 'bigquery' from 'google.cloud' (unknown location)
+kubeflow__pipelines__two_step_with_uri_placeholder.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+9rince__kfp__legacy_exit_handler.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+ferneutron__mlops__iris_pipeline.py,❌ ImportError: cannot import name 'bigquery' from 'google.cloud' (unknown location)
+redhat-ai-services__kubeflow-pipelines-examples__04_artifact_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+sbakiu__kubeflow-spark__kubeflow_pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__kf-flatcar2__component.py,❌ NameError: name 'dsl' is not defined
+butuzov__kubeflow-pipline-pytorch-tacatron__pipeline.py,❌ NameError: name 'dsl' is not defined
+StatCan__aaw-kubeflow-mlops__cnn.py,"❌ TypeError: Components must be instantiated using keyword arguments. Positional parameters are not allowed (found 6 such parameters for component ""cnn"")."
+litovn__kubeflow-autopipe__pipeline_manager.py,❌ NameError: name 'dsl' is not defined
+redhat-ai-services__kubeflow-pipelines-examples__02_submitted_pipeline_via_service.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+canonical__kfp-operators__pipeline_container_no_input.py,❌ NameError: name 'dsl' is not defined
+9rince__kfp__lightweight_python_functions_v2_pipeline_test.py,❌ ImportError: cannot import name 'load_component' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__metrics_visualization_v2_test.py,❌ TypeError: 'PipelineTask' object is not subscriptable
+pavan-kumar-99__ml-ops__TestTrainSplit.py,❌ ImportError: cannot import name 'getRawData' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+shawar8__sfcrime-prediction-kubeflow__data_ingest_fns.py,❌ NameError: name 'dsl' is not defined
+nnkkmto__sample-vertex-pipelines__pipeline.py,❌ NameError: name 'dsl' is not defined
+kubeflow__pipelines__component_with_optional_inputs.py,❌ NameError: name 'dsl' is not defined
+9rince__kfp__lightweight_python_functions_v2_with_outputs_test.py,❌ TypeError: component() got an unexpected keyword argument 'name'
+s102401002__kubeflowPipeline__kubeflowPipeline_parquet.py,❌ NameError: name 'dsl' is not defined
+DanielAvdar__protocol-task__executors.py,❌ NameError: name 'artifacttaskinitexecutor' is not defined
+stackdemos__jj-test2__component.py,❌ NameError: name 'dsl' is not defined
+9rince__kfp__metrics_visualization_v2_test.py,❌ NameError: name 'dsl' is not defined
+9rince__kfp__cache_v2_test.py,❌ ImportError: cannot import name 'cache_v2_test' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+redhat-ai-services__kubeflow-pipelines-examples__05_metrics_pipeline.py,❌ NameError: name 'dsl' is not defined
+omkarakaya__kubeflow-recommender__pipeline.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+stackdemos__yolo4__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+getindata__kedro-kubeflow__one_pod_pipeline_generator.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+anifort__kubeflow-pipelines-mlops__pipeline.py,❌ TypeError: Missing type annotation for argument: data
+anupr567__kubeflow_pipeline__kfp_pipeline.py,❌ AttributeError: module 'kfp.components' has no attribute 'component'
+e2fyi__kfx____init__.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__legacy_exit_handler.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
+shashnavad__wine-quality-mlops__test_pipeline.py,❌ ModuleNotFoundError: No module named 'great_expectations'
+speg03__kfp-toolbox__pipelines.py,❌ NameError: name 'dsl' is not defined
+pragadeeshraju__kubeflow-sample-pipeline__pipeline.py,❌ NameError: name 'dsl' is not defined
+xxxtrillionarie__KubeFlow_MLOps_Pipelines__metrics_visualization_v1_test.py,❌ ValueError: Task is missing from pipeline.
+9rince__kfp__metrics_visualization_v1_test.py,❌ ImportError: cannot import name 'table_visualization' from 'kfp.components' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/components/__init__.py)
+deployKF__kubeflow-pipelines-gitops__pipeline.py,❌ NameError: name 'dsl' is not defined
+stackdemos__kfp125__component.py,❌ ImportError: cannot import name 'pipeline' from 'kfp' (/home/ilyes101/.local/lib/python3.10/site-packages/kfp/__init__.py)
