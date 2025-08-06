@@ -14,13 +14,14 @@
 module load python/3.11
 source ~/ENV/bin/activate
 
-# Navigate to working directory
+# Navigate to project directory
 cd /home/ilyes/scratch/kfp-gen/finetuning
 
-# (Optional) Install requirements if not done already
-# pip install -r requirements.txt
+# Configure CUDA
+export CUDA_VISIBLE_DEVICES=0
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
 
-# Run fine-tuning
+# Run fine-tuning script
 python unsloth_trainer/train_sft.py \
   --model Qwen/Qwen1.5-1.8B \
   --dataset data/prompts_dataset \
@@ -29,3 +30,4 @@ python unsloth_trainer/train_sft.py \
   --batch 1 \
   --grad 4 \
   --context 2048
+

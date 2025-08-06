@@ -1,22 +1,29 @@
-# train_sft.py
-import argparse
 import os
+import argparse
 from datetime import datetime
-import datasets
+
 import torch
+import datasets
 from peft import LoraConfig, TaskType
-from transformers import AutoTokenizer, BitsAndBytesConfig, AutoModelForCausalLM
+from transformers import (
+    AutoTokenizer,
+    AutoModelForCausalLM,
+    BitsAndBytesConfig,
+    logging,
+    TrainerState,
+    set_seed
+)
+from transformers.trainer import TRAINER_STATE_NAME
+from transformers.trainer_utils import get_last_checkpoint
 from trl import SFTTrainer, SFTConfig, get_kbit_device_map
 from accelerate import Accelerator
-from rewards.compute_total_reward import total_reward
-from formatting import formatting_func
-from tokenizer_utils import load_tokenizer
 
 
-def main(args_pars):
-    # Tokenizer & model
-    tokenizer = load_tokenizer(args_pars.model)
+def format_prompt(example):
+    return f"# Prompt:\n{example['prompt']}\n\n# Pipeline Code:\n{example['response']}"
 
+
+def main():
     nf4_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -30,74 +37,95 @@ def main(args_pars):
         lora_alpha=16,
         lora_dropout=0.1,
         inference_mode=False,
+        bias="none",
         task_type=TaskType.CAUSAL_LM,
         target_modules="all-linear"
     )
 
     model = AutoModelForCausalLM.from_pretrained(
-        args_pars.model,
+        args.model,
         quantization_config=nf4_config,
-        attn_implementation="sdpa",
-        device_map=get_kbit_device_map(),
         torch_dtype=torch.float32,
-        trust_remote_code=True,
+        attn_implementation="sdpa",
+        local_files_only=True,
+        device_map=get_kbit_device_map()
     )
 
-    if not os.path.exists(args_pars.dataset):
-        raise FileNotFoundError(f"Dataset path does not exist: {args_pars.dataset}")
+    tokenizer = AutoTokenizer.from_pretrained(args.model, local_files_only=True)
+    tokenizer.pad_token = tokenizer.eos_token
 
-    dataset = datasets.load_from_disk(args_pars.dataset)
+    dataset = datasets.load_from_disk(args.dataset)
+    dataset = dataset.map(lambda x: {"text": format_prompt(x)})
 
-    config = SFTConfig(
-        per_device_train_batch_size=args_pars.batch,
-        per_device_eval_batch_size=args_pars.batch,
-        gradient_accumulation_steps=args_pars.grad,
+    sft_config = SFTConfig(
+        do_train=True,
+        per_device_train_batch_size=args.batch,
+        per_device_eval_batch_size=args.batch,
+        gradient_accumulation_steps=args.grad,
         gradient_checkpointing=True,
-        logging_strategy="steps",
-        logging_steps=10,
-        save_strategy="steps",
-        save_steps=50,
-        num_train_epochs=3,
-        learning_rate=5e-5,
+        gradient_checkpointing_kwargs={'use_reentrant': False},
         eval_strategy="steps",
-        eval_steps=50,
-        output_dir=args_pars.output,
-        max_seq_length=args_pars.context,
-        dataset_text_field="text",
+        eval_steps=100,
+        logging_steps=10,
+        save_steps=100,
+        save_strategy="steps",
+        save_total_limit=2,
+        learning_rate=5e-4,
+        num_train_epochs=1,
+        max_seq_length=args.context,
+        dataset_text_field='text',
+        output_dir=args.output_dir,
+        run_name=args.run_name,
+        report_to="wandb",
+        disable_tqdm=False,
+        fp16=True,
         packing=True,
-        run_name=args_pars.rname,
-        report_to="none",
-        warmup_steps=10,
     )
 
     trainer = SFTTrainer(
         model=model,
-        args=config,
-        tokenizer=tokenizer,
         peft_config=peft_config,
-        train_dataset=dataset["train"],
-        eval_dataset=dataset["test"],
-        formatting_func=formatting_func
+        train_dataset=dataset['train'],
+        eval_dataset=dataset['test'],
+        args=sft_config,
+        tokenizer=tokenizer
     )
 
-    trainer.train()
-    trainer.save_model(args_pars.output)
+    trainer.train(resume_from_checkpoint=args.resume)
+    trainer.save_model(f"{args.output_dir}/final-model")
 
 
-def setup_parser():
+def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, required=True)
-    parser.add_argument("--dataset", type=str, required=True)
-    parser.add_argument("--rname", type=str, default="kfp-sft")
-    parser.add_argument("--output", type=str, default="./run/kfp_model")
-    parser.add_argument("--batch", type=int, default=1)
-    parser.add_argument("--grad", type=int, default=4)
-    parser.add_argument("--context", type=int, default=2048)
-    return parser
+    parser.add_argument("--model", type=str, required=True, help="Path or HuggingFace ID of the base model")
+    parser.add_argument("--dataset", type=str, required=True, help="Path to HuggingFace dataset directory")
+    parser.add_argument("--output_dir", type=str, default="./kfp-finetuned", help="Directory to save checkpoints and model")
+    parser.add_argument("--run_name", type=str, default="kfp-gen", help="Run name for wandb tracking")
+    parser.add_argument("--batch", type=int, default=1, help="Batch size per device")
+    parser.add_argument("--grad", type=int, default=4, help="Gradient accumulation steps")
+    parser.add_argument("--context", type=int, default=2048, help="Max context length")
+    parser.add_argument("--resume", action='store_true', help="Resume training from last checkpoint")
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    args = setup_parser().parse_args()
-    accelerator = Accelerator(log_with=None)
-    main(args)
+    args = parse_args()
+    accelerator = Accelerator(log_with="wandb")
+    accelerator.init_trackers(
+        'KFP-Finetuning',
+        init_kwargs={
+            "wandb": {
+                "mode": "offline",
+                "name": f"exp-{args.run_name}",
+                "dir": args.output_dir,
+                "resume": "allow" if args.resume else None
+            }
+        }
+    )
+
+    logging.disable_progress_bar()
+    datasets.disable_progress_bars()
+    set_seed(42)
+
+    main()
     accelerator.end_training()
