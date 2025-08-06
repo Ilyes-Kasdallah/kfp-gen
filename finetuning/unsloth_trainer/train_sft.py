@@ -8,8 +8,8 @@ from transformers import AutoTokenizer, BitsAndBytesConfig, AutoModelForCausalLM
 from trl import SFTTrainer, SFTConfig, get_kbit_device_map
 from accelerate import Accelerator
 from rewards.compute_total_reward import total_reward
-from trainer.formatting import formatting_func
-from trainer.tokenizer_utils import load_tokenizer
+from unsloth_trainer.formatting import formatting_func
+from unsloth_trainer.tokenizer_utils import load_tokenizer
 
 
 def main(args_pars):
