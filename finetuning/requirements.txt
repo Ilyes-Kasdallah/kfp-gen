@@ -1,0 +1,9 @@
+transformers
+unsloth
+trl
+torch
+datasets
+nltk
+pylint
+accelerate
+scipy
