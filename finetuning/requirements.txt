@@ -7,3 +7,4 @@ nltk
 pylint
 accelerate
 scipy
+numpy
