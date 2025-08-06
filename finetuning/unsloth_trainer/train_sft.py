@@ -1,3 +1,4 @@
+# train_sft.py
 import argparse
 import os
 from datetime import datetime
@@ -39,6 +40,7 @@ def main(args_pars):
         attn_implementation="sdpa",
         device_map=get_kbit_device_map(),
         torch_dtype=torch.float32,
+        trust_remote_code=True,
     )
 
     if not os.path.exists(args_pars.dataset):
@@ -64,7 +66,7 @@ def main(args_pars):
         dataset_text_field="text",
         packing=True,
         run_name=args_pars.rname,
-        report_to="wandb",
+        report_to="none",
         warmup_steps=10,
     )
 
@@ -96,10 +98,6 @@ def setup_parser():
 
 if __name__ == "__main__":
     args = setup_parser().parse_args()
-    accelerator = Accelerator(log_with="wandb")
-    accelerator.init_trackers(
-        project_name="kfp-finetuning",
-        init_kwargs={"wandb": {"name": args.rname, "mode": "offline"}}
-    )
+    accelerator = Accelerator(log_with=None)
     main(args)
     accelerator.end_training()

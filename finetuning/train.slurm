@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --account=def-<your-professor>   # Replace with your professor's account
+#SBATCH --gres=gpu:1                     # Request 1 GPU (you can adjust)
+#SBATCH --cpus-per-task=8                # Number of CPU cores
+#SBATCH --mem=32G                        # RAM
+#SBATCH --time=03:00:00                  # Max time (hh:mm:ss)
+#SBATCH --job-name=kfp-qwen-sft
+#SBATCH --output=logs/kfp_qwen_sft_%j.out
+
+# Load modules and activate environment
+module load python/3.11
+source ~/ENV/bin/activate
+
+# Navigate to working directory
+cd /home/ilyes/scratch/kfp-gen/finetuning
+
+# (Optional) Install requirements if not done already
+# pip install -r requirements.txt
+
+# Run fine-tuning
+python unsloth_trainer/train_sft.py \
+  --model Qwen/Qwen1.5-1.8B \
+  --dataset data/prompts_dataset \
+  --rname "kfp-qwen1.8b" \
+  --output "run/kfp-qwen1.8b" \
+  --batch 1 \
+  --grad 4 \
+  --context 2048
