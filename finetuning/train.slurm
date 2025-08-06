@@ -1,11 +1,14 @@
 #!/bin/bash
-#SBATCH --account=def-masai45   # Replace with your professor's account
+#SBATCH --account=def-masai45  
 #SBATCH --gres=gpu:1                     # Request 1 GPU (you can adjust)
 #SBATCH --cpus-per-task=8                # Number of CPU cores
 #SBATCH --mem=32G                        # RAM
 #SBATCH --time=03:00:00                  # Max time (hh:mm:ss)
 #SBATCH --job-name=kfp-qwen-sft
 #SBATCH --output=logs/kfp_qwen_sft_%j.out
+  
+#SBATCH --mail-user=ilkas2@ulaval.ca
+#SBATCH --mail-type=ALL   
 
 # Load modules and activate environment
 module load python/3.11
