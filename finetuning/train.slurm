@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=def-<your-professor>   # Replace with your professor's account
+#SBATCH --account=def-masai45   # Replace with your professor's account
 #SBATCH --gres=gpu:1                     # Request 1 GPU (you can adjust)
 #SBATCH --cpus-per-task=8                # Number of CPU cores
 #SBATCH --mem=32G                        # RAM
