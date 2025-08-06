@@ -2,7 +2,7 @@
 module load python/3.11
 source ~/ENV/bin/activate
 
-cd ~home/ilyes/scratch/kfp-gen/finetuning
+cd /home/ilyes/scratch/kfp-gen/finetuning
 pip install -r requirements.txt
 
 python data/prepare_dataset.py
