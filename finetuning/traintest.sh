@@ -1,13 +1,12 @@
 #!/bin/bash
-#SBATCH --account=def-masai45  
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:v100l:1           # Request 4 V100 GPUs
-#SBATCH --mem=80000                  # More RAM for big batches/context
+#SBATCH --mem=30000                 # More RAM for big batches/context
 #SBATCH --cpus-per-task=16           # Use more CPUs for dataloader
 #SBATCH --time=01:00:00                  # Max time (hh:mm:ss)
 #SBATCH --job-name=kfp-qwen-sft
 #SBATCH --output=logs/kfp_qwen_sft_%j.out
-  
+#SBATCH --account=def-masai45  
 #SBATCH --mail-user=ilkas2@ulaval.ca
 #SBATCH --mail-type=ALL   
 
