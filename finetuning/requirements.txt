@@ -35,12 +35,12 @@ nest_asyncio==1.6.0+computecanada
 networkx==3.4.2+computecanada
 packaging==24.2+computecanada
 parso==0.8.4+computecanada
-peft==0.15.2+computecanada
+peft==0.13.2+computecanada
 pexpect==4.9.0+computecanada
 pillow==11.1.0+computecanada
 prompt_toolkit==3.0.50+computecanada
 propcache==0.2.1+computecanada
-protobuf==3.20.3+computecanada
+protobuf==5.29.3+computecanada
 ptyprocess==0.7.0+computecanada
 pure_eval==0.2.3+computecanada
 pydantic==2.10.4+computecanada
@@ -62,8 +62,8 @@ tokenizers==0.21.0+computecanada
 torch==2.5.1+computecanada
 tornado==6.4.2+computecanada
 traitlets==5.14.3+computecanada
-transformers==4.43.2+computecanada
-trl==0.8.6+computecanada
+transformers==4.48.0+computecanada
+trl==0.12.1+computecanada
 typing_extensions==4.12.2+computecanada
 tzdata==2025.1+computecanada
 urllib3==2.3.0+computecanada
