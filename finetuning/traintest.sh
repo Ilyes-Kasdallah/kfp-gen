@@ -23,10 +23,10 @@ export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
 
 # Run fine-tuning script
 python unsloth_trainer/train_sft.py \
-  --model Qwen/Qwen1.5-1.8B \
+  --model Qwen/Qwen2.5-7B-Instruct \
   --dataset data/prompts_dataset \
-  --rname "kfp-qwen1.8b" \
-  --output "run/kfp-qwen1.8b" \
+  --run_name "kfp-Qwen2.5-7B-Instruct" \
+  --output_dir "run/kfp-Qwen2.5-7B-Instruct" \
   --batch 1 \
   --grad 4 \
   --context 2048
