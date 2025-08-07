@@ -28,7 +28,7 @@ source "$ENV/bin/activate"
 
 echo "Installing Python dependencies..."
 pip install --no-index --upgrade pip
-pip install --no-index --upgrade -r /home/ilyes/scratch/kfp-gen/finetuning/requirement.txt
+pip install --no-index --upgrade -r /home/ilyes/scratch/kfp-gen/finetuning/requirements.txt
 
 #############################
 # 4. Download HF Model (if provided)
