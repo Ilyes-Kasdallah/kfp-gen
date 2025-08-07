@@ -1,4 +1,3 @@
-unsloth
 nltk
 pylint
 numpy
