@@ -62,7 +62,7 @@ tokenizers==0.21.0+computecanada
 torch==2.5.1+computecanada
 tornado==6.4.2+computecanada
 traitlets==5.14.3+computecanada
-transformers==4.43.3+computecanada
+transformers==4.43.2+computecanada
 trl==0.8.6+computecanada
 typing_extensions==4.12.2+computecanada
 tzdata==2025.1+computecanada
