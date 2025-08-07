@@ -4,7 +4,7 @@ from datasets import load_dataset
 from tokenizer_utils import load_tokenizer
 from reward_model import total_reward
 
-model_name = "Qwen/Qwen1.5-8B"
+model_name = "Qwen/Qwen2.5-7B-Instruct"
 tokenizer = load_tokenizer(model_name)
 model, _ = FastLanguageModel.from_pretrained(model_name, load_in_4bit=True, use_unsloth=True)
 model = FastLanguageModel.get_peft_model(model, r=8, target_modules=["q_proj", "v_proj"])

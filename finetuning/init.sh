@@ -6,7 +6,7 @@
 #   sh ./init.sh <huggingface-model-id> <git-dataset-url>
 #
 # Example:
-#   sh ./init.sh meta-llama/Meta-Llama-3.1-8B https://github.com/logpai/loghub.git
+#   sh ./init.sh Qwen/Qwen2.5-7B-Instruct https://github.com/logpai/loghub.git
 
 #############################
 # 1. Load modules 
@@ -16,7 +16,7 @@ source ./statics/modules.sh
 #############################
 # 2. Setup virtualenv
 #############################
-ENV="$HOME/training_env"
+ENV="$HOME/ENV"
 
 echo "Creating virtualenv at $ENV"
 virtualenv --no-download "$ENV"
