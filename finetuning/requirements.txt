@@ -35,7 +35,7 @@ nest_asyncio==1.6.0+computecanada
 networkx==3.4.2+computecanada
 packaging==24.2+computecanada
 parso==0.8.4+computecanada
-peft==0.12.0+computecanada
+peft==0.15.2+computecanada
 pexpect==4.9.0+computecanada
 pillow==11.1.0+computecanada
 prompt_toolkit==3.0.50+computecanada
