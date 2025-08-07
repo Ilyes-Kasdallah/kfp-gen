@@ -20,7 +20,7 @@ from accelerate import Accelerator
 
 
 def format_prompt(example):
-    return f"# Prompt:\n{example['prompt']}\n\n# Pipeline Code:\n{example['response']}"
+    return f"# Prompt:\n{example['prompt']}\n\n# Pipeline Code:\n{example['completion']}"
 
 
 def main():
