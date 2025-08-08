@@ -1,3 +1,8 @@
-# .gitignore
-.env
-passwords.txt
+# Ignore model checkpoints and large files
+*.pt
+*.safetensors
+*.ckpt
+
+# Optionally ignore full checkpoints directories
+finetuning/run/
+
