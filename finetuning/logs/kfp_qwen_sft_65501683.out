@@ -1,0 +1,10 @@
+/home/ilyes/ENV/lib/python3.12/site-packages/torch/_subclasses/functional_tensor.py:295: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /shared_tmp/build_wheels_tmp.337748/python-3.12/torch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 6, in <module>
+    import datasets
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/__init__.py", line 17, in <module>
+    from .arrow_dataset import Dataset
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 58, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

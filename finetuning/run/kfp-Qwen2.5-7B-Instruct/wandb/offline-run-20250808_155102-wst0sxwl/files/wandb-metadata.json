@@ -1,0 +1,99 @@
+{
+  "os": "Linux-5.14.0-362.24.2.el9_3.x86_64-x86_64-Intel-R-_Xeon-R-_Silver_4216_CPU_@_2.10GHz-with-glibc2.37",
+  "python": "3.12.4",
+  "startedAt": "2025-08-08T22:51:02.562437Z",
+  "args": [
+    "--model",
+    "/scratch/ilyes/models/Qwen/Qwen2.5-7B-Instruct",
+    "--dataset",
+    "/home/ilyes/scratch/kfp-gen/finetuning/data/data/prompts_dataset",
+    "--run_name",
+    "kfp-Qwen2.5-7B-Instruct",
+    "--output_dir",
+    "run/kfp-Qwen2.5-7B-Instruct",
+    "--batch",
+    "1",
+    "--grad",
+    "4",
+    "--context",
+    "2048"
+  ],
+  "program": "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py",
+  "codePath": "finetuning/unsloth_trainer/train_sft.py",
+  "git": {
+    "remote": "https://github.com/Ilyes-Kasdallah/kfp-gen.git",
+    "commit": "21b974212c3e359ba44ba9a1a93635cd3f8a3139"
+  },
+  "root": "run/kfp-Qwen2.5-7B-Instruct",
+  "host": "cdr2628.int.cedar.computecanada.ca",
+  "username": "ilyes",
+  "executable": "/home/ilyes/ENV/bin/python",
+  "codePathLocal": "unsloth_trainer/train_sft.py",
+  "cpu_count": 32,
+  "cpu_count_logical": 32,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "4294967296",
+      "used": "3101593600"
+    }
+  },
+  "memory": {
+    "total": "201351892992"
+  },
+  "cpu": {
+    "count": 32,
+    "countLogical": 32
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla V100-SXM2-32GB",
+      "memoryTotal": "34359738368",
+      "cudaCores": 5120,
+      "architecture": "Volta"
+    }
+  ],
+  "slurm": {
+    "cluster_name": "cedar",
+    "conf": "/etc/slurm/slurm.conf",
+    "cpus_on_node": "16",
+    "cpus_per_task": "16",
+    "gpus_on_node": "1",
+    "gtids": "0",
+    "job_account": "def-masai45_gpu",
+    "job_cpus_per_node": "16",
+    "job_end_time": "1754729322",
+    "job_gid": "3150314",
+    "job_gpus": "0",
+    "job_id": "65524255",
+    "job_name": "kfp-qwen-sft",
+    "job_nodelist": "cdr2628",
+    "job_num_nodes": "1",
+    "job_partition": "gpubase_bygpu_b2",
+    "job_qos": "normal",
+    "job_start_time": "1754693322",
+    "job_uid": "3150314",
+    "job_user": "ilyes",
+    "jobid": "65524255",
+    "localid": "0",
+    "mem_per_node": "30000",
+    "mpi_type": "pmix",
+    "nnodes": "1",
+    "nodeid": "0",
+    "nodelist": "cdr2628",
+    "oom_kill_step": "0",
+    "procid": "0",
+    "restart_count": "0",
+    "script_context": "prolog_task",
+    "submit_dir": "/scratch/ilyes/kfp-gen/finetuning",
+    "submit_host": "cedar5.int.cedar.computecanada.ca",
+    "task_pid": "84175",
+    "tasks_per_node": "1",
+    "tmpdir": "/localscratch/ilyes.65524255.0",
+    "topology_addr": "core.leaf-f2-1.h2-7-1.cdr2628",
+    "topology_addr_pattern": "switch.switch.switch.node",
+    "tres_per_task": "cpu=16"
+  },
+  "cudaVersion": "12.4"
+}

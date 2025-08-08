@@ -1,0 +1,18 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: WARNING Path run/kfp-Qwen2.5-7B-Instruct/wandb/ wasn't writable, using system temp directory.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: Tracking run with wandb version 0.18.7
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 130, in <module>
+    main()
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 57, in main
+    dataset = datasets.load_from_disk(args.dataset)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/load.py", line 2210, in load_from_disk
+    raise FileNotFoundError(f"Directory {dataset_path} not found")
+FileNotFoundError: Directory data/prompts_dataset not found
+[1;34mwandb[0m:
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync /tmp/wandb/offline-run-20250807_135610-tgw75k7g[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../../tmp/wandb/offline-run-20250807_135610-tgw75k7g/logs[0m

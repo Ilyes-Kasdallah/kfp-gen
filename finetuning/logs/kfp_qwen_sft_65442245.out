@@ -1,0 +1,41 @@
+/home/ilyes/ENV/lib/python3.12/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /shared_tmp/build_wheels_tmp.337748/python-3.12/torch/c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: WARNING Path run/kfp-Qwen2.5-7B-Instruct/wandb/ wasn't writable, using system temp directory.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: Tracking run with wandb version 0.18.7
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 130, in <module>
+    main()
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 58, in main
+    dataset = dataset.map(lambda x: {"text": format_prompt(x)})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/dataset_dict.py", line 887, in map
+    k: dataset.map(
+       ^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 560, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3055, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3428, in _map_single
+    example = apply_function_on_filtered_inputs(example, i, offset=offset)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3320, in apply_function_on_filtered_inputs
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 58, in <lambda>
+    dataset = dataset.map(lambda x: {"text": format_prompt(x)})
+                                             ^^^^^^^^^^^^^^^^
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 23, in format_prompt
+    return f"# Prompt:\n{example['prompt']}\n\n# Pipeline Code:\n{example['response']}"
+                                                                  ~~~~~~~^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/formatting/formatting.py", line 277, in __getitem__
+    value = self.data[key]
+            ~~~~~~~~~^^^^^
+KeyError: 'response'
+[1;34mwandb[0m:
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync /tmp/wandb/offline-run-20250807_143419-yw8s3gh3[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../../tmp/wandb/offline-run-20250807_143419-yw8s3gh3/logs[0m

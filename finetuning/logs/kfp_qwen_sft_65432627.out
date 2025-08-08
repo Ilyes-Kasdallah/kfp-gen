@@ -1,0 +1,32 @@
+/home/ilyes/ENV/lib/python3.12/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /shared_tmp/build_wheels_tmp.337748/python-3.12/torch/c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: WARNING Path run/kfp-Qwen2.5-7B-Instruct/wandb/ wasn't writable, using system temp directory.
+wandb: Tracking run with wandb version 0.18.7
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers and GPU quantization are unavailable.
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 130, in <module>
+    main()
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 45, in main
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3620, in from_pretrained
+    hf_quantizer.validate_environment(
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/quantizers/quantizer_bnb_4bit.py", line 83, in validate_environment
+    validate_bnb_backend_availability(raise_exception=True)
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/integrations/bitsandbytes.py", line 558, in validate_bnb_backend_availability
+    return _validate_bnb_multi_backend_availability(raise_exception)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/integrations/bitsandbytes.py", line 499, in _validate_bnb_multi_backend_availability
+    available_devices.discard("cpu")  # Only Intel CPU is supported by BNB at the moment
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'frozenset' object has no attribute 'discard'
+[1;34mwandb[0m:
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync /tmp/wandb/offline-run-20250807_124131-25wdufqa[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../../tmp/wandb/offline-run-20250807_124131-25wdufqa/logs[0m

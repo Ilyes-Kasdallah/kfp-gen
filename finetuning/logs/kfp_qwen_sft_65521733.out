@@ -1,0 +1,46 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: / Waiting for wandb.init()...wandb: - Waiting for wandb.init()...wandb: Tracking run with wandb version 0.18.7
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+[2025-08-08 14:47:53,598] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 130, in <module>
+    main()
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 85, in main
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 165, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/trl/trainer/sft_trainer.py", line 408, in __init__
+    super().__init__(
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 165, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/trainer.py", line 618, in __init__
+    unwrapped_model = self.accelerator.unwrap_model(model)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/accelerate/accelerator.py", line 2628, in unwrap_model
+    return extract_model_from_parallel(model, keep_fp32_wrapper)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/accelerate/utils/other.py", line 86, in extract_model_from_parallel
+    from deepspeed import DeepSpeedEngine
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/deepspeed/__init__.py", line 25, in <module>
+    from . import ops
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/deepspeed/ops/__init__.py", line 15, in <module>
+    from ..git_version_info import compatible_ops as __compatible_ops__
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/deepspeed/git_version_info.py", line 29, in <module>
+    op_compatible = builder.is_compatible()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/deepspeed/ops/op_builder/fp_quantizer.py", line 35, in is_compatible
+    sys_cuda_major, _ = installed_cuda_version()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/deepspeed/ops/op_builder/builder.py", line 51, in installed_cuda_version
+    raise MissingCUDAException("CUDA_HOME does not exist, unable to compile CUDA op(s)")
+deepspeed.ops.op_builder.builder.MissingCUDAException: CUDA_HOME does not exist, unable to compile CUDA op(s)
+[1;34mwandb[0m:
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync run/kfp-Qwen2.5-7B-Instruct/wandb/offline-run-20250808_144327-w9bi4i2z[0m

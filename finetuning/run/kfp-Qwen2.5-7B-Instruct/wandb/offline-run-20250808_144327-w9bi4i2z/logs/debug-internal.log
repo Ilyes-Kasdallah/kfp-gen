@@ -1,0 +1,15 @@
+{"time":"2025-08-08T14:43:28.105084055-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-08-08T14:43:28.10533318-07:00","level":"INFO","msg":"created symlink","path":"run/kfp-Qwen2.5-7B-Instruct/wandb/offline-run-20250808_144327-w9bi4i2z/logs/debug-core.log"}
+{"time":"2025-08-08T14:43:32.187980914-07:00","level":"INFO","msg":"created new stream","id":"w9bi4i2z"}
+{"time":"2025-08-08T14:43:32.188055158-07:00","level":"INFO","msg":"stream: started","id":"w9bi4i2z"}
+{"time":"2025-08-08T14:43:32.188146799-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"w9bi4i2z"}
+{"time":"2025-08-08T14:43:32.188158806-07:00","level":"INFO","msg":"sender: started","stream_id":"w9bi4i2z"}
+{"time":"2025-08-08T14:43:32.188160796-07:00","level":"INFO","msg":"handler: started","stream_id":"w9bi4i2z"}
+{"time":"2025-08-08T14:43:32.204945109-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-08T14:48:00.823694946-07:00","level":"INFO","msg":"stream: closing","id":"w9bi4i2z"}
+{"time":"2025-08-08T14:48:00.823824637-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-08T14:48:00.868393139-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-08T14:48:00.868702261-07:00","level":"INFO","msg":"handler: closed","stream_id":"w9bi4i2z"}
+{"time":"2025-08-08T14:48:00.868725244-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w9bi4i2z"}
+{"time":"2025-08-08T14:48:00.86873168-07:00","level":"INFO","msg":"sender: closed","stream_id":"w9bi4i2z"}
+{"time":"2025-08-08T14:48:00.869103182-07:00","level":"INFO","msg":"stream: closed","id":"w9bi4i2z"}

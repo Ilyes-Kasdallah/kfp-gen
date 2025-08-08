@@ -1,0 +1,7 @@
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+usage: train_sft.py [-h] --model MODEL --dataset DATASET
+                    [--output_dir OUTPUT_DIR] [--run_name RUN_NAME]
+                    [--batch BATCH] [--grad GRAD] [--context CONTEXT]
+                    [--resume]
+train_sft.py: error: unrecognized arguments: --rname kfp-qwen1.8b
