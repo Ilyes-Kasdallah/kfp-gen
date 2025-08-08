@@ -3,7 +3,7 @@
 #SBATCH --gres=gpu:v100l:1           # Request 4 V100 GPUs
 #SBATCH --mem=30000                 # More RAM for big batches/context
 #SBATCH --cpus-per-task=16           # Use more CPUs for dataloader
-#SBATCH --time=01:00:00                  # Max time (hh:mm:ss)
+#SBATCH --time=10:00:00                  # Max time (hh:mm:ss)
 #SBATCH --job-name=kfp-qwen-sft
 #SBATCH --output=logs/kfp_qwen_sft_%j.out
 #SBATCH --account=def-masai45  
