@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --time=02:00:00
 #SBATCH --job-name=kfp-eval
-#SBATCH --output=finetuning/testing_qwen/runs/exp1/slurm_%j.out
+#SBATCH --output=testing_qwen/runs/exp1/slurm_%j.out
 #SBATCH --account=def-masai45
 
 module load python/3.11
