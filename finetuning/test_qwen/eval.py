@@ -235,7 +235,7 @@ def main():
     # Load model & test dataset
     tok, model = load_model(args.model_path)
     test_ds = load_hf_test_split(args.hf_path)
-    if args.max-samples is not None:   # type: ignore[attr-defined]
+    if args.max_samples is not None:   # type: ignore[attr-defined]
         test_ds = test_ds.select(range(min(len(test_ds), args.max_samples)))
 
     rows: List[Row] = []
