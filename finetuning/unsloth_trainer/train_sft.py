@@ -59,27 +59,34 @@ def main():
 
     sft_config = SFTConfig(
         do_train=True,
-        per_device_train_batch_size=args.batch,
-        per_device_eval_batch_size=args.batch,
-        gradient_accumulation_steps=args.grad,
+        per_device_train_batch_size=4,          # was args.batch
+        per_device_eval_batch_size=4,
+        gradient_accumulation_steps=8,          # effective batch = 32
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={'use_reentrant': False},
         eval_strategy="steps",
-        eval_steps=100,
-        logging_steps=10,
-        save_steps=100,
+        eval_steps=200,                         # less I/O; still frequent enough
+        logging_steps=20,
         save_strategy="steps",
+        save_steps=200,
         save_total_limit=2,
-        learning_rate=5e-4,
-        num_train_epochs=1,
+        learning_rate=1e-4,                     # LoRA usually likes 5e-5–2e-4; 1e-4 is a solid start
+        lr_scheduler_type="cosine",
+        warmup_ratio=0.03,                      # ~3% warmup is safer than none
+        weight_decay=0.1,
+        max_grad_norm=1.0,
+        num_train_epochs=3,
         max_seq_length=args.context,
-        dataset_text_field='text',
+        dataset_text_field="text",
         output_dir=args.output_dir,
         run_name=args.run_name,
         report_to="wandb",
         disable_tqdm=False,
-        fp16=True,
+        fp16=True,                              # V100 = fp16 (bf16 not supported)
         packing=True,
+        group_by_length=True,                   # better packing/throughput
+        dataloader_num_workers=4,               # small bump in input pipelining
+
     )
 
     trainer = SFTTrainer(
