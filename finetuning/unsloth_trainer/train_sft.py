@@ -73,7 +73,7 @@ def main():
         learning_rate=1e-4,                     # LoRA usually likes 5e-5–2e-4; 1e-4 is a solid start
         lr_scheduler_type="cosine",
         warmup_ratio=0.03,                      # ~3% warmup is safer than none
-        weight_decay=0.1,
+        weight_decay=0.01,
         max_grad_norm=1.0,
         num_train_epochs=3,
         max_seq_length=args.context,
@@ -110,7 +110,7 @@ def parse_args():
     parser.add_argument("--run_name", type=str, default="kfp-gen", help="Run name for wandb tracking")
     parser.add_argument("--batch", type=int, default=1, help="Batch size per device")
     parser.add_argument("--grad", type=int, default=4, help="Gradient accumulation steps")
-    parser.add_argument("--context", type=int, default=2048, help="Max context length")
+    parser.add_argument("--context", type=int, default=4096, help="Max context length")
     parser.add_argument("--resume", action='store_true', help="Resume training from last checkpoint")
     return parser.parse_args()
 
