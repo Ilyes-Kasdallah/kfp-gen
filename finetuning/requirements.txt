@@ -14,7 +14,7 @@ cycler==0.12.1+computecanada
 datasets==3.1.0+computecanada
 debugpy==1.8.12+computecanada
 decorator==5.1.1+computecanada
-deepspeed==0.16.0+computecanada
+#deepspeed==0.16.0+computecanada
 executing==2.2.0+computecanada
 fonttools==4.55.8+computecanada
 huggingface_hub==0.27.1+computecanada
