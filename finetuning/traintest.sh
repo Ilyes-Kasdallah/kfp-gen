@@ -12,34 +12,47 @@
 
 set -euo pipefail
 
-# --- Modules FIRST (arrow before venv) ---
+# --- Modules FIRST ---
 module --force purge
 module load StdEnv/2023 gcc/12.3 python/3.11 arrow
 
-# Quick check on the compute node
-python - <<'PY'
-import sys
-print("Node Python:", sys.version.split()[0])
-try:
-    import pyarrow as pa
-    print("pyarrow OK:", pa.__version__)
-except Exception as e:
-    print("pyarrow import failed:", e)
-    raise SystemExit(1)
-PY
-
-# --- Then activate the Py3.11 venv ---
+# --- Activate the Py3.11 venv ---
 source ~/ENV311/bin/activate
 
-# Optional runtime knobs
+# Make bitsandbytes see Torch’s bundled CUDA libs (libcudart, etc.)
+TORCH_LIB_DIR="$(python - <<'PY'
+import os, torch
+print(os.path.join(os.path.dirname(torch.__file__), "lib"))
+PY
+)"
+export LD_LIBRARY_PATH="${TORCH_LIB_DIR}:${LD_LIBRARY_PATH:-}"
+
+# Optional: help bnb pick the right CUDA build (matches torch.version.cuda)
+export BNB_CUDA_VERSION="$(python - <<'PY'
+import torch
+print(torch.version.cuda.replace('.',''))
+PY
+)"
+
+# Quick sanity check on the compute node
+python - <<'PY'
+import sys, torch
+print("Node Python:", sys.version.split()[0])
+print("Torch CUDA:", torch.version.cuda, "Devices:", torch.cuda.device_count())
+try:
+    import bitsandbytes as bnb
+    print("bitsandbytes:", bnb.__version__, "OK")
+except Exception as e:
+    print("bitsandbytes import failed:", e); raise SystemExit(1)
+PY
+
+# Runtime knobs
 export TOKENIZERS_PARALLELISM=false
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,max_split_size_mb:256
 export CUDA_VISIBLE_DEVICES=0
 
-# Work from fast scratch (adjust if your data is elsewhere)
 cd /scratch/ilyes/kfp-gen/finetuning
 
-# Run fine-tuning
 python unsloth_trainer/train_sft.py \
   --model /scratch/ilyes/models/Qwen/Qwen2.5-7B-Instruct \
   --dataset /home/ilyes/scratch/kfp-gen/finetuning/data/data/prompts_dataset \
