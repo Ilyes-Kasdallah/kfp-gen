@@ -53,4 +53,4 @@ python unsloth_trainer/train_sft.py \
   --output_dir "run/kfp-Qwen2.5-7B-Instruct" \
   --batch 1 \
   --grad 8 \
-  --context 1024
+  --context 1536
