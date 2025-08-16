@@ -12,14 +12,12 @@
 
 set -euo pipefail
 
-# --- Modules FIRST ---
 module --force purge
 module load StdEnv/2023 gcc/12.3 python/3.11 arrow
 
-# --- Activate the Py3.11 venv ---
 source ~/ENV311/bin/activate
 
-# Make bitsandbytes see Torch’s bundled CUDA libs (libcudart, etc.)
+# Make sure Torch’s CUDA libs are visible
 TORCH_LIB_DIR="$(python - <<'PY'
 import os, torch
 print(os.path.join(os.path.dirname(torch.__file__), "lib"))
@@ -27,26 +25,21 @@ PY
 )"
 export LD_LIBRARY_PATH="${TORCH_LIB_DIR}:${LD_LIBRARY_PATH:-}"
 
-# Optional: help bnb pick the right CUDA build (matches torch.version.cuda)
-export BNB_CUDA_VERSION="$(python - <<'PY'
-import torch
-print(torch.version.cuda.replace('.',''))
-PY
-)"
+# IMPORTANT: don't force a non-existent CUDA variant
+unset BNB_CUDA_VERSION
 
-# Quick sanity check on the compute node
+# Sanity check: bnb + CUDA
 python - <<'PY'
-import sys, torch
+import sys, torch, bitsandbytes, glob, pathlib
 print("Node Python:", sys.version.split()[0])
 print("Torch CUDA:", torch.version.cuda, "Devices:", torch.cuda.device_count())
-try:
-    import bitsandbytes as bnb
-    print("bitsandbytes:", bnb.__version__, "OK")
-except Exception as e:
-    print("bitsandbytes import failed:", e); raise SystemExit(1)
+p = pathlib.Path(bitsandbytes.__file__).parent
+libs = sorted(glob.glob(str(p/'libbitsandbytes_cuda*.so')))
+print("bnb libs:", [pathlib.Path(x).name for x in libs])
+import bitsandbytes as bnb
+print("bitsandbytes:", bnb.__version__, "OK")
 PY
 
-# Runtime knobs
 export TOKENIZERS_PARALLELISM=false
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,max_split_size_mb:256
 export CUDA_VISIBLE_DEVICES=0
@@ -60,4 +53,4 @@ python unsloth_trainer/train_sft.py \
   --output_dir "run/kfp-Qwen2.5-7B-Instruct" \
   --batch 1 \
   --grad 8 \
-  --context 1536
+  --context 1024
