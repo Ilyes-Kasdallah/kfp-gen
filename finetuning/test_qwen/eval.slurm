@@ -17,16 +17,18 @@ module load python/3.12
 module load arrow                 # provides pyarrow on Compute Canada
 
 source ~/ENV/bin/activate
-
-# Ensure clean, compatible deps (tokenizers 0.20.x, transformers >=4.46, protobuf <6)
 python -m pip install --upgrade pip setuptools wheel
-python -m pip uninstall -y protobuf tokenizers transformers || true
 
-python -m pip install \
-  "protobuf>=5.29.0,<6" \
-  "transformers>=4.46.3,<4.49" \
-  "tokenizers>=0.20.3,<0.21" \
-  "accelerate>=0.30" \
+# Avoid TRL forcing newer transformers if it’s present (not needed for eval)
+python -m pip uninstall -y trl || true
+
+# Force wheels only (prebuilt in CC wheelhouse), avoid building Rust tokenizers
+# Pin versions compatible with slow tokenizer fallback (no need for tokenizers>=0.20)
+PIP_ONLY_BINARY=:all: python -m pip install \
+  "protobuf>=5.29,<6" \
+  "transformers==4.40.2" \
+  "tokenizers==0.19.1" \
+  "accelerate>=0.29" \
   "torch" \
   "numpy>=1.26.4,<2" \
   "nltk>=3.8" \
@@ -34,7 +36,7 @@ python -m pip install \
   "datasets>=2.18,<3" \
   "kfp>=2.5"
 
-# Optional sanity print (helpful in the job log)
+# Sanity print
 python - <<'PY'
 import transformers, tokenizers
 import google.protobuf as pb
@@ -43,6 +45,8 @@ print("tokenizers  :", tokenizers.__version__)
 print("protobuf    :", pb.__version__)
 PY
 
+# Prefer slow tokenizers to avoid Rust completely
+export TRANSFORMERS_NO_FAST_TOKENIZER=1
 export PATH="$HOME/bin:$PATH"     # if kube-linter is in ~/bin
 
 cd /scratch/ilyes/kfp-gen/finetuning/test_qwen
