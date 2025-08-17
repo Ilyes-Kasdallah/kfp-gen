@@ -74,7 +74,12 @@ STOP_PATTERNS = [r"^```", r"^# End", r"^if __name__ == ['\"]__main__['\"]:"]
 
 # ---------- Model ----------
 def load_model(model_path: str):
-    tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+    # Prefer fast tokenizer; fall back to slow if the Rust tokenizer can't parse tokenizer.json
+    try:
+        tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+    except Exception:
+        tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, use_fast=False)
+
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
@@ -207,12 +212,12 @@ def load_hf_test_split(path: str) -> Dataset:
     if isinstance(obj, Dataset):
         return obj
     if isinstance(obj, DatasetDict):
-            # Prefer 'test' -> 'validation' -> first split
-            for name in ("test", "validation"):
-                if name in obj:
-                    return obj[name]
-            first = next(iter(obj.keys()))
-            return obj[first]
+        # Prefer 'test' -> 'validation' -> first split
+        for name in ("test", "validation"):
+            if name in obj:
+                return obj[name]
+        first = next(iter(obj.keys()))
+        return obj[first]
     raise ValueError("Unsupported HuggingFace dataset object type.")
 
 # ---------- Main ----------

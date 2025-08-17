@@ -9,18 +9,39 @@
 #SBATCH --output=/scratch/ilyes/kfp-gen/finetuning/test_qwen/runs/slurm_%j.out
 #SBATCH --account=def-masai45
 #SBATCH --mail-user=ilkas2@ulaval.ca
-#SBATCH --mail-type=ALL   
-
+#SBATCH --mail-type=ALL
 
 module purge
 module load StdEnv/2023
 module load python/3.12
-module load arrow                 # <-- important (pyarrow provided here)
+module load arrow                 # provides pyarrow on Compute Canada
 
 source ~/ENV/bin/activate
-python -m pip install --upgrade pip
-python -m pip install "transformers==4.40.2" "accelerate>=0.29" "tokenizers<0.20" \
-                      "torch" "numpy>=1.26.4" "nltk>=3.8" "pylint>=3.0" "kfp>=2.5"
+
+# Ensure clean, compatible deps (tokenizers 0.20.x, transformers >=4.46, protobuf <6)
+python -m pip install --upgrade pip setuptools wheel
+python -m pip uninstall -y protobuf tokenizers transformers || true
+
+python -m pip install \
+  "protobuf>=5.29.0,<6" \
+  "transformers>=4.46.3,<4.49" \
+  "tokenizers>=0.20.3,<0.21" \
+  "accelerate>=0.30" \
+  "torch" \
+  "numpy>=1.26.4,<2" \
+  "nltk>=3.8" \
+  "pylint>=3.0" \
+  "datasets>=2.18,<3" \
+  "kfp>=2.5"
+
+# Optional sanity print (helpful in the job log)
+python - <<'PY'
+import transformers, tokenizers
+import google.protobuf as pb
+print("transformers:", transformers.__version__)
+print("tokenizers  :", tokenizers.__version__)
+print("protobuf    :", pb.__version__)
+PY
 
 export PATH="$HOME/bin:$PATH"     # if kube-linter is in ~/bin
 
