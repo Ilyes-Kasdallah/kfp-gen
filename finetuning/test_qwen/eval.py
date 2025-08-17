@@ -5,7 +5,7 @@ Generate KFP pipelines with your fine-tuned Qwen and evaluate them with:
 - kube-linter (compiled YAML checks)
 - METEOR (text similarity vs. reference in the test split)
 """
-import argparse, json, os, re, subprocess, sys, importlib.util, csv
+import argparse, json, os, re, subprocess, importlib.util, csv
 from dataclasses import dataclass, asdict
 from io import StringIO
 from typing import Dict, Any, List, Tuple
@@ -45,7 +45,7 @@ STOP_PATTERNS = [r"^```", r"^# End", r"^if __name__ == ['\"]__main__['\"]:"]
 
 # ---------- Model ----------
 def load_model(model_path: str):
-    # Try fast tokenizer first; fall back to slow (no Rust needed)
+    # Try fast tokenizer first; fall back to slow (avoids Rust tokenizers)
     try:
         tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     except Exception:
@@ -74,7 +74,7 @@ def generate_code(tok, model, user_prompt: str, max_new_tokens=1200, temperature
     text = tok.decode(out[0], skip_special_tokens=True)
     gen = text.split("Python file start:")[-1].strip()
 
-    # Trim at stop patterns and remove fenced blocks
+    # Trim at common stop patterns and remove fenced blocks if present
     lines = []
     for line in gen.splitlines():
         if any(re.match(p, line) for p in STOP_PATTERNS):
@@ -246,7 +246,8 @@ def main():
                 gen_txt = r.read()
             meteor_val = meteor_vs_ref(gen_txt, ref_text)
             if args.save_refs and ref_text:
-                refs_dir = os.path.join(args.out_dir, "refs"); os.makedirs(refs_dir, exist_ok=True)
+                refs_dir = os.path.join(args.out_dir, "refs")
+                os.makedirs(refs_dir, exist_ok=True)
                 with open(os.path.join(refs_dir, f"{sid}.py"), "w", encoding="utf-8") as w:
                     w.write(ref_text)
         except Exception as ex:

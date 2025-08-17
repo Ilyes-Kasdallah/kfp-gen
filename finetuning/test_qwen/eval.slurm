@@ -19,13 +19,12 @@ module load arrow                 # provides pyarrow on Compute Canada
 source ~/ENV/bin/activate
 python -m pip install --upgrade pip setuptools wheel
 
-# Avoid TRL forcing newer transformers if it’s present (not needed for eval)
-python -m pip uninstall -y trl || true
+# Start clean to avoid solver dead-ends
+python -m pip uninstall -y wandb protobuf tokenizers transformers kfp || true
 
-# Force wheels only (prebuilt in CC wheelhouse), avoid building Rust tokenizers
-# Pin versions compatible with slow tokenizer fallback (no need for tokenizers>=0.20)
+# 1) Core stack (wheel-only; no Rust build). We stay on transformers 4.40.2 + tokenizers 0.19.1,
+#    and rely on the slow-tokenizer fallback in eval.py to avoid the fast Rust tokenizer.
 PIP_ONLY_BINARY=:all: python -m pip install \
-  "protobuf>=5.29,<6" \
   "transformers==4.40.2" \
   "tokenizers==0.19.1" \
   "accelerate>=0.29" \
@@ -33,21 +32,30 @@ PIP_ONLY_BINARY=:all: python -m pip install \
   "numpy>=1.26.4,<2" \
   "nltk>=3.8" \
   "pylint>=3.0" \
-  "datasets>=2.18,<3" \
-  "kfp>=2.5"
+  "datasets>=2.18,<3"
 
-# Sanity print
+# 2) kfp requires protobuf==6.31.1; install them together so the resolver is happy
+PIP_ONLY_BINARY=:all: python -m pip install \
+  "protobuf==6.31.1" \
+  "kfp==2.14.2"
+
+# (Optional) If you truly need W&B in this job, try a version compatible with protobuf 6.
+# Otherwise, keep it uninstalled for this eval job to avoid conflicts.
+# python -m pip install "wandb>=0.19" || true
+
+# Quick sanity print
 python - <<'PY'
-import transformers, tokenizers
-import google.protobuf as pb
-print("transformers:", transformers.__version__)
-print("tokenizers  :", tokenizers.__version__)
-print("protobuf    :", pb.__version__)
+try:
+    import transformers, tokenizers
+    import google.protobuf as pb
+    import kfp
+    print("transformers:", transformers.__version__)
+    print("tokenizers  :", tokenizers.__version__)
+    print("protobuf    :", pb.__version__)
+    print("kfp         :", kfp.__version__)
+except Exception as e:
+    print("Sanity import failed:", e)
 PY
-
-# Prefer slow tokenizers to avoid Rust completely
-export TRANSFORMERS_NO_FAST_TOKENIZER=1
-export PATH="$HOME/bin:$PATH"     # if kube-linter is in ~/bin
 
 cd /scratch/ilyes/kfp-gen/finetuning/test_qwen
 python ./eval.py \
