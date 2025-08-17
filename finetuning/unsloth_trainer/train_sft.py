@@ -29,7 +29,7 @@ def main(args):
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
-        bnb_4bit_compute_dtype=torch.float16,   # V100 = fp16
+        bnb_4bit_compute_dtype=torch.float16,   
         bnb_4bit_quant_storage=torch.float32,
     )
 
@@ -62,7 +62,7 @@ def main(args):
     dataset = dataset.map(lambda x: {"text": format_prompt(x)})
 
     # Cap context to something safer by default; you can lift later
-    max_ctx = min(args.context, 1536)
+    max_ctx = min(args.context, 2048)
 
     # ---- Training config (NOW honors CLI) ----
     sft_config = SFTConfig(
