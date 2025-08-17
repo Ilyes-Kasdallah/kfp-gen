@@ -62,7 +62,7 @@ def main(args):
     dataset = dataset.map(lambda x: {"text": format_prompt(x)})
 
     # Cap context to something safer by default; you can lift later
-    max_ctx = min(args.context, 1024)
+    max_ctx = min(args.context, 1536)
 
     # ---- Training config (NOW honors CLI) ----
     sft_config = SFTConfig(
@@ -81,13 +81,13 @@ def main(args):
         save_steps=200,
         save_total_limit=2,
 
-        learning_rate=1e-4,                  # good starting LR for LoRA
+        learning_rate=1e-4,            
         lr_scheduler_type="cosine",
         warmup_ratio=0.03,
         weight_decay=0.01,
         max_grad_norm=1.0,
 
-        num_train_epochs=3,
+        num_train_epochs=4,
         max_seq_length=max_ctx,
         dataset_text_field="text",
         output_dir=args.output_dir,
