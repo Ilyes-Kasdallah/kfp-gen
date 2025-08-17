@@ -60,7 +60,7 @@ PY
 cd /scratch/ilyes/kfp-gen/finetuning/test_qwen
 python ./eval.py \
   --model-path /scratch/ilyes/kfp-gen/finetuning/run/kfp-Qwen2.5-7B-Instruct/final-model \
-  --hf-path     /scratch/ilyes/kfp-gen/finetuning/data/prompts_dataset \
+  --hf-path     /scratch/ilyes/kfp-gen/finetuning/data/data/prompts_dataset \
   --out-dir     /scratch/ilyes/kfp-gen/finetuning/testing_qwen/runs/exp1 \
   --max-samples 50 \
   --save-refs
