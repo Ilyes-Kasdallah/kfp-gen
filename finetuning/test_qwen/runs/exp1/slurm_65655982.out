@@ -1,0 +1,12 @@
+/home/ilyes/ENV/lib/python3.12/site-packages/torch/_subclasses/functional_tensor.py:295: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /shared_tmp/build_wheels_tmp.337748/python-3.12/torch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/test_qwen/./eval.py", line 37, in <module>
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/transformers/utils/__init__.py", line 23, in <module>
+    from packaging import version
+ModuleNotFoundError: No module named 'packaging'

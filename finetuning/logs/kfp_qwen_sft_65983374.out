@@ -1,0 +1,41 @@
+Node Python: 3.11.5
+Torch CUDA: 12.2 Devices: 1
+bnb libs: ['libbitsandbytes_cuda122.so', 'libbitsandbytes_cuda122_nocublaslt.so']
+bitsandbytes: 0.43.3 OK
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: / Waiting for wandb.init()...wandb: Tracking run with wandb version 0.18.7
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+/home/ilyes/ENV311/lib/python3.11/site-packages/transformers/training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/home/ilyes/ENV311/lib/python3.11/site-packages/transformers/training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+  0%|          | 0/56 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  2%|▏         | 1/56 [00:30<27:49, 30.35s/it]  4%|▎         | 2/56 [00:42<17:32, 19.50s/it]  5%|▌         | 3/56 [00:50<12:40, 14.36s/it]  7%|▋         | 4/56 [01:09<13:57, 16.10s/it]  9%|▉         | 5/56 [01:22<12:49, 15.08s/it] 11%|█         | 6/56 [01:29<10:21, 12.43s/it] 12%|█▎        | 7/56 [01:48<11:41, 14.32s/it] 14%|█▍        | 8/56 [02:01<11:12, 14.02s/it] 16%|█▌        | 9/56 [02:10<09:43, 12.42s/it] 18%|█▊        | 10/56 [02:29<11:02, 14.40s/it] 20%|█▉        | 11/56 [02:41<10:21, 13.82s/it] 21%|██▏       | 12/56 [02:49<08:45, 11.95s/it] 23%|██▎       | 13/56 [03:02<08:52, 12.40s/it] 25%|██▌       | 14/56 [03:12<08:07, 11.60s/it] 27%|██▋       | 15/56 [03:18<06:47,  9.94s/it] 29%|██▊       | 16/56 [03:35<07:56, 11.91s/it] 30%|███       | 17/56 [03:46<07:35, 11.69s/it] 32%|███▏      | 18/56 [03:54<06:42, 10.60s/it] 34%|███▍      | 19/56 [04:11<07:44, 12.55s/it] 36%|███▌      | 20/56 [04:20<06:59, 11.66s/it]                                                36%|███▌      | 20/56 [04:20<06:59, 11.66s/it] 38%|███▊      | 21/56 [04:27<05:56, 10.19s/it] 39%|███▉      | 22/56 [04:46<07:15, 12.80s/it] 41%|████      | 23/56 [05:00<07:17, 13.26s/it] 43%|████▎     | 24/56 [05:09<06:18, 11.82s/it] 45%|████▍     | 25/56 [05:28<07:12, 13.94s/it] 46%|████▋     | 26/56 [05:43<07:05, 14.17s/it] 48%|████▊     | 27/56 [05:52<06:09, 12.75s/it] 50%|█████     | 28/56 [06:09<06:28, 13.89s/it] 52%|█████▏    | 29/56 [06:19<05:47, 12.87s/it] 54%|█████▎    | 30/56 [06:25<04:41, 10.83s/it]{'loss': 7.4973, 'grad_norm': 2.672445297241211, 'learning_rate': 7.500000000000001e-05, 'epoch': 1.34}
+ 55%|█████▌    | 31/56 [06:44<05:32, 13.29s/it] 57%|█████▋    | 32/56 [06:58<05:19, 13.33s/it] 59%|█████▉    | 33/56 [07:06<04:32, 11.83s/it] 61%|██████    | 34/56 [07:23<04:55, 13.41s/it] 62%|██████▎   | 35/56 [07:34<04:26, 12.70s/it] 64%|██████▍   | 36/56 [07:42<03:45, 11.26s/it] 66%|██████▌   | 37/56 [08:00<04:13, 13.36s/it] 68%|██████▊   | 38/56 [08:12<03:54, 13.02s/it] 70%|██████▉   | 39/56 [08:21<03:17, 11.63s/it] 71%|███████▏  | 40/56 [08:38<03:32, 13.30s/it]                                                71%|███████▏  | 40/56 [08:38<03:32, 13.30s/it] 73%|███████▎  | 41/56 [08:49<03:07, 12.53s/it] 75%|███████▌  | 42/56 [08:56<02:33, 10.96s/it] 77%|███████▋  | 43/56 [09:14<02:51, 13.17s/it] 79%|███████▊  | 44/56 [09:26<02:33, 12.81s/it] 80%|████████  | 45/56 [09:32<01:58, 10.75s/it]{'loss': 5.8899, 'grad_norm': 1.4950708150863647, 'learning_rate': 2.0142070414860704e-05, 'epoch': 2.68}
+ 82%|████████▏ | 46/56 [09:51<02:12, 13.26s/it] 84%|████████▍ | 47/56 [10:08<02:08, 14.29s/it] 86%|████████▌ | 48/56 [10:18<01:43, 12.88s/it] 88%|████████▊ | 49/56 [10:35<01:38, 14.12s/it] 89%|████████▉ | 50/56 [10:46<01:19, 13.18s/it] 91%|█████████ | 51/56 [10:53<00:57, 11.47s/it] 93%|█████████▎| 52/56 [11:10<00:52, 13.07s/it] 95%|█████████▍| 53/56 [11:20<00:36, 12.09s/it] 96%|█████████▋| 54/56 [11:27<00:21, 10.66s/it] 98%|█████████▊| 55/56 [11:46<00:13, 13.03s/it]100%|██████████| 56/56 [11:57<00:00, 12.69s/it]                                               100%|██████████| 56/56 [11:59<00:00, 12.69s/it]100%|██████████| 56/56 [11:59<00:00, 12.85s/it]
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         train/epoch ▁▅█
+wandb:   train/global_step ▁▅█
+wandb:     train/grad_norm █▁
+wandb: train/learning_rate █▁
+wandb:          train/loss █▁
+wandb: 
+wandb: Run summary:
+wandb:               total_flos 2.277373446873907e+16
+wandb:              train/epoch 3.74576
+wandb:        train/global_step 56
+wandb:          train/grad_norm 1.49507
+wandb:      train/learning_rate 2e-05
+wandb:               train/loss 5.8899
+wandb:               train_loss 6.39549
+wandb:            train_runtime 719.3841
+wandb: train_samples_per_second 0.656
+wandb:   train_steps_per_second 0.078
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync run/kfp-Qwen2.5-7B-Instruct/wandb/offline-run-20250816_225446-dd5w3f2g
+wandb: Find logs at: run/kfp-Qwen2.5-7B-Instruct/wandb/offline-run-20250816_225446-dd5w3f2g/logs
+{'train_runtime': 719.3841, 'train_samples_per_second': 0.656, 'train_steps_per_second': 0.078, 'train_loss': 6.395490646362305, 'epoch': 3.75}

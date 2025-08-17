@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/unsloth_trainer/train_sft.py", line 6, in <module>
+    import datasets
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/__init__.py", line 17, in <module>
+    from .arrow_dataset import Dataset
+  File "/home/ilyes/ENV/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 59, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

@@ -1,0 +1,70 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) CCconfig        6)  ucx/1.14.1         11) flexiblas/3.3.1
+  2) gentoo/2023     7)  libfabric/1.18.0   12) imkl/2023.2.0
+  3) gcccore/.12.3   8)  pmix/4.2.4         13) StdEnv/2023
+  4) gcc/12.3        9)  ucc/1.2.0
+  5) hwloc/2.9.1     10) openmpi/4.1.5
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /home/ilyes/ENV/lib/python3.12/site-packages (25.2)
+Requirement already satisfied: setuptools in /home/ilyes/ENV/lib/python3.12/site-packages (75.6.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/setuptools-80.9.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/wheel-0.45.1+computecanada-py3-none-any.whl
+Installing collected packages: wheel, setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 75.6.0+computecanada
+    Uninstalling setuptools-75.6.0+computecanada:
+      Successfully uninstalled setuptools-75.6.0+computecanada
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+wandb 0.18.7+computecanada requires protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0; python_version > "3.9" and sys_platform == "linux", but you have protobuf 6.31.1+computecanada which is incompatible.
+Successfully installed setuptools-80.9.0+computecanada wheel-0.45.1+computecanada
+Found existing installation: protobuf 6.31.1+computecanada
+Uninstalling protobuf-6.31.1+computecanada:
+  Successfully uninstalled protobuf-6.31.1+computecanada
+Found existing installation: tokenizers 0.19.1+computecanada
+Uninstalling tokenizers-0.19.1+computecanada:
+  Successfully uninstalled tokenizers-0.19.1+computecanada
+Found existing installation: transformers 4.40.2+computecanada
+Uninstalling transformers-4.40.2+computecanada:
+  Successfully uninstalled transformers-4.40.2+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/protobuf-5.29.5+computecanada-cp312-cp312-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/transformers-4.48.3+computecanada-py3-none-any.whl
+Collecting tokenizers<0.21,>=0.20.3
+  Downloading tokenizers-0.20.3.tar.gz (340 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [6 lines of output]
+      
+      Cargo, the Rust package manager, is not installed or is not on PATH.
+      This package requires Rust and Cargo to compile extensions. Install it through
+      the system's package manager or via https://rustup.rs/
+      
+      Checking for Rust toolchain....
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'transformers'
+Traceback (most recent call last):
+  File "/scratch/ilyes/kfp-gen/finetuning/test_qwen/./eval.py", line 37, in <module>
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+ModuleNotFoundError: No module named 'transformers'
